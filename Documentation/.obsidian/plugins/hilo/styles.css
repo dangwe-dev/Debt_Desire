@@ -1,0 +1,145 @@
+.od-color-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 0;
+}
+.od-style-setting {
+  margin-top: 18px;
+}
+.od-color-row .od-slug-input {
+  flex: 1;
+  min-width: 120px;
+}
+.od-color-row .od-hex-input {
+  width: 90px;
+}
+.od-color-row .od-color-picker {
+  width: 32px;
+  padding: 0;
+}
+.od-color-row input.is-invalid {
+  outline: 2px solid var(--text-error);
+}
+.od-color-row button.od-arrow:disabled {
+  opacity: 0.4;
+}
+.od-color-row input:disabled,
+.od-color-row input[type="color"]:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+.od-color-row .od-hotkey {
+  display: inline-block;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: var(--background-modifier-hover);
+  font-family: var(--font-monospace);
+  font-size: 0.85em;
+  color: var(--text-normal);
+  min-width: 60px;
+  text-align: center;
+}
+.od-color-row .od-hotkey-empty {
+  color: var(--text-muted);
+  opacity: 0.6;
+}
+.od-color-row .od-hotkey-button {
+  padding: 2px 6px;
+}
+
+/* Inline-CSS-variable highlight rendering. Each highlight element carries
+   style="--hl-bg: …; --hl-underline: …;" injected by livePreview/readingView. */
+.cm-highlight[style*="--hl-bg"],
+mark[class*="hl-"],
+span[class*="hl-"] {
+  background: var(--hl-bg);
+}
+
+/* Neutralize Obsidian's native highlight background so it doesn't bleed
+   through the Underlined style's transparent upper region. Scoped to that
+   style only — Default/Lowlight paint a solid fill that already covers the
+   native background, so no neutralizer needed there. Only non-slugged
+   `==text==` highlights keep their native yellow (intentional — we don't
+   want to erase highlights the plugin didn't put there).
+
+   The :has() variants target the case where CM6 wraps a `.cm-highlight`
+   parent AROUND our hl-* decoration. That was the shape shown in the
+   underlined-style PR's before/after screenshots (link in the PR review);
+   removing :has() reintroduces the bleed. The other selectors cover the
+   sibling shapes (hl-* on the same element, hl-* as ancestor, reading-view
+   mark).
+
+   The marketplace bot flags :has() as a performance concern (broad selector
+   invalidation). Scoping to `body.od-style-underlined` limits the concern
+   to sessions with that style active. The trade-off is deliberate and
+   verified empirically. */
+body.od-style-underlined .cm-highlight[class*="hl-"],
+body.od-style-underlined .cm-formatting-highlight[class*="hl-"],
+body.od-style-underlined .cm-highlight:has([class*="hl-"]),
+body.od-style-underlined .cm-formatting-highlight:has([class*="hl-"]),
+body.od-style-underlined [class*="hl-"] .cm-highlight,
+body.od-style-underlined [class*="hl-"] .cm-formatting-highlight,
+body.od-style-underlined .markdown-preview-view mark[class*="hl-"] {
+  background-color: transparent;
+}
+
+
+body.od-style-lowlight mark[class*="hl-"],
+body.od-style-lowlight .cm-highlight [class*="hl-"],
+body.od-style-lowlight span[class*="hl-"],
+body.od-style-lowlight .cm-highlight[style*="--hl-underline"] {
+  color: var(--text-normal);
+  box-shadow: inset 0 -0.2em 0 var(--hl-underline, currentColor);
+}
+
+/* Underlined — a thin band of color across the bottom of the text, like a
+   fat underline. Uses the same inset-box-shadow technique as Lowlight so it
+   renders correctly per line box on wrapped inline text without needing
+   `box-decoration-break`. */
+body.od-style-underlined mark[class*="hl-"],
+body.od-style-underlined .cm-highlight[style*="--hl-bg"],
+body.od-style-underlined span[class*="hl-"] {
+  background: none !important;
+  box-shadow: inset 0 -0.22em 0 var(--hl-bg, currentColor);
+}
+
+.od-setting-note {
+  margin: 0 0 8px;
+  color: var(--text-muted);
+  font-size: var(--font-ui-smaller);
+}
+
+/* ----------------------------------------------------------------------- */
+/* Style preview list in the settings tab description                      */
+/* ----------------------------------------------------------------------- */
+.od-style-preview-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 10px;
+  margin-top: 10px;
+  color: var(--text-normal);
+}
+.od-style-preview-row {
+  font-size: 1.6em;
+  line-height: 2.4;
+  white-space: nowrap;
+}
+.od-style-demo .od-preview-sample {
+  background: var(--hl-bg);
+}
+.od-style-demo.od-style-lowlight .od-preview-sample {
+  background: var(--hl-bg);
+  box-shadow: inset 0 -0.2em 0 var(--hl-underline, currentColor);
+}
+.od-style-demo.od-style-underlined .od-preview-sample {
+  background: linear-gradient(
+    180deg,
+    transparent 0%,
+    transparent 78%,
+    var(--hl-bg) 78%,
+    var(--hl-bg) 100%
+  );
+  padding-bottom: 0.05em;
+}
