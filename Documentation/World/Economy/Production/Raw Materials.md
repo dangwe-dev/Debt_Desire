@@ -1,4 +1,4 @@
-[[Industriy List]]
+[[Industry List]]
 
 For the "Debt & Desire" world to be strong and cohesive, it is necessary to have a strong foundation where the economy of the world is concerned. The whole concept, is for the player to be able to influence the world economy with his actions. 
 For this to be realized, the economy must have very clear settings. This will allow the development process to easily create the dynamics allowing the player to predict the results of his actions over the economy in the game.

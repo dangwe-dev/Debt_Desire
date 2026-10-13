@@ -1,4 +1,4 @@
-MAgic[[Industriy List]]
+MAgic[[Industry List]]
 
 ## Industry Entitites
 
