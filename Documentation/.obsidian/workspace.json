@@ -23,31 +23,17 @@
             }
           },
           {
-            "id": "13687a76a67b7970",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "World/Economy Mapping/MarketPlace/Victoria's Entities Draft.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Victoria's Entities Draft"
-            }
-          },
-          {
             "id": "0579aa28e403f87b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "World/Economy/Production/Raw Materials.md",
+                "file": "World/Economy/MarketPlace/Flow Map Draft_Flow of Goods.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Raw Materials"
+              "title": "Flow Map Draft_Flow of Goods"
             }
           },
           {
@@ -56,30 +42,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "World/Economy/Production/Raw Materials.md",
+                "file": "World/Economy/Production/Industry List.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Raw Materials"
+              "title": "Industry List"
             }
           },
           {
-            "id": "e710ed9e671a4cef",
+            "id": "116c84522673e0e3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "World/Economy/Production/Industriy List.md",
+                "file": "World/Economy/MarketPlace/Corporate Entities.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Industriy List"
+              "title": "Corporate Entities"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "936659d519d44bb0",
@@ -92,12 +78,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "World/Economy/MarketPlace/Corporate Entities.md",
+                "file": "World/Economy/MarketPlace/Functions of Industry.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Corporate Entities"
+              "title": "Functions of Industry"
             }
           },
           {
@@ -335,24 +321,24 @@
   },
   "active": "d3f79156c591b4a8",
   "lastOpenFiles": [
-    "World/Economy/Production/Raw Materials.md",
-    "World/Economy/Production/Industry List.md",
-    "World/Economy/MarketPlace/Corporate Entities.md",
-    "World/Society/House Corporations.md",
     "World/Economy/MarketPlace/Flow Map Draft_Flow of Goods.md",
+    "World/Economy/MarketPlace/Functions of Industry.md",
+    "World/Economy/MarketPlace/Corporate Entities.md",
+    "World/Economy/Production/Industry List.md",
+    "World/Economy/Production/Raw Materials.md",
     "World/Economy/MarketPlace/Flow of Goods.md",
+    "World/Economy/MarketPlace/Victoria's Entities Draft.md",
     "World/Economy/Production/Sectors of Industry.md",
     "World/Economy/Production/Sector Definitions/Primary Sector.md",
-    "World/Society/Victorian Society.md",
-    "World/Economy/Production/Functions of Industry.md",
-    "World/Economy/Production/Sector Definitions",
-    "World/Economy/Economy Landscape/Commerce.md",
-    "World/Economy/Economy Landscape/Institutions.md",
-    "World/Economy/MarketPlace/Victoria's Entities Draft.md",
     "World/Economy/Economy Landscape/Culture.md",
+    "World/Economy/Economy Landscape/Institutions.md",
+    "World/Economy/Economy Landscape/Commerce.md",
+    "World/Environment/Victoria.md",
+    "World/Society/Victorian Society.md",
+    "World/Society/House Corporations.md",
+    "World/Economy/Production/Sector Definitions",
     "QUESTIONS.md",
     "World/Economy/Economy Landscape/X_Dollar Map.canvas",
-    "World/Environment/Victoria.md",
     "World/Economy/MarketPlace",
     "Systems/NPC/Behaviour.md",
     "2026-10-01.md",
