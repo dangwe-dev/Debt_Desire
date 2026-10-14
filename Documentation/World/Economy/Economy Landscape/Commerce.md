@@ -20,7 +20,7 @@ Markets represent general consumer retail. Anything from foods to clothing and f
 
 ## Workshops
 
-Workshops, represent specialized retail, repair and skilled trades. If you want to acquire furniture, decorations for buildings or materials for production, you can visit the workshops and find what you need there. The "Sectors of Industry" the "Workshops" depend on are;
+Workshops, represent specialized retail, repair and skilled trades. The workshop focuses on one material. Wood, stone, metal etc. If you want to acquire furniture, decorations for buildings or materials for production, you can visit the workshops and find what you need there. The "Sectors of Industry" the "Workshops" depend on are;
 
 - Primary Sector
 - Market Goods Sector
@@ -28,14 +28,9 @@ Workshops, represent specialized retail, repair and skilled trades. If you want 
 - Energy Sector
 
 
-## Luxury Stores
+## Stores 
 
-Luxury stores represent the upper class consumer. Its where the noble and rich merchants will go to buy goods not accessible to the lower class. You can find much of the same products you will find in the markets only with the addition of items such as jewelry, perfume, watches and other luxury goods. The "Sectors of Industry" the "Luxury Stores" depend on are;
-
-- Primary Sector
-- Market Goods Sector
-- Transformation Sector
-- Logistics Sector
+Stores are specialized retail like workshops only they don't specialize in a material they focus on magic tools, chemicals, etc.
 
 ## Restaurants (To be transferred in -> institutions or amenities).
 
@@ -59,4 +54,3 @@ The trading houses are where the people go to buy company stock. You can go ther
 - Energy Sector
 
 
- 
