@@ -1,6 +1,6 @@
 
 
-This document
+
 
 # Industry Functions
 

@@ -30,6 +30,11 @@ Anybody's who is anyone has a office in the Assembly Locals or a proxy if they a
 "The Longevity Center", is the name of the hospital in Victoria. There is only one hospital but it is spacious and has plenty room. The longevity center, is where Victorians go for health treatments, operations examination, everything to do with medical doctors. The Longevity Center also is the provider of elixirs and other medical concoctions, available at one of the three clinics in the City.
 The Longevity Center is not a free service. Citizens often go in debt to pay for its services.
 
+### Clinics
+
+Clinics, are a subsidiary of the longevity center. The longevity center is a very expensive service and most citizens can't afford to go there for every inconvenience. Still, health is important so the clinics are the best way to get rapid treatment. You can go to a clinic to receive a remedy for your ailment they act as a continuation of the longevity center. 
+
+
 ## Academy
 
 The academy, creates the future of Victoria. The people frequenting the academy are often children of powerful people or very bright individuals who are being groomed for leadership. 

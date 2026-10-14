@@ -18,9 +18,9 @@ Markets represent general consumer retail. Anything from foods to clothing and f
 - Transformation Sector
 
 
-## Workshops
+## Factories
 
-Workshops, represent specialized retail, repair and skilled trades. The workshop focuses on one material. Wood, stone, metal etc. If you want to acquire furniture, decorations for buildings or materials for production, you can visit the workshops and find what you need there. The "Sectors of Industry" the "Workshops" depend on are;
+Factories, represent specialized retail, repair and skilled trades. The factory focuses on one material. Wood, stone, metal etc. If you want to acquire furniture, decorations for buildings or materials for production, you can visit the factories and find what you need there. The "Sectors of Industry" the "factories" depend on are;
 
 - Primary Sector
 - Market Goods Sector
@@ -32,9 +32,9 @@ Workshops, represent specialized retail, repair and skilled trades. The workshop
 
 Stores are specialized retail like workshops only they don't specialize in a material they focus on magic tools, chemicals, etc.
 
-## Restaurants (To be transferred in -> institutions or amenities).
+## Amenities
 
-<span style="color:rgb(100, 0, 100)">There are two types of restaurants. The ones in the lower levels of the city meant for the middle and lower class, and the ones located in the upper levels of the city who are frequented by the upper-class of the city. The "Sectors of Industry" the "Restaurants" depend on are;</span>
+Amenities are public service businesses. Restaurants, hostels, bars etc.
 
 - <span style="color:rgb(100, 0, 100)">Primary Sector</span>
 - <span style="color:rgb(100, 0, 100)">Market Goods Sector</span>
