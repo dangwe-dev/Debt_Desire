@@ -30,8 +30,8 @@ Libraries, like the museum of Victoria are are also a non-profit organization bu
 
 ## Theatre
 
-
-
+The theatre is a cultural attraction in the city of Victoria. The high minded posh people in Victoria appreciate the arts and love knowledge. Victoria being a magical and knowledgeable city, its population appreciates a good story and this service can be found in the theatres. The theatre uses many magical tools to help with the immersion and spectacle. The theatre is reserved for the wealthy though every now and then there will be a festival during which the theatre will give outside performances accessible to all.
+The theatre, is located in the 5th layer of the city and every visit requires a hefty payment.
 
 ## Restaurants
 
