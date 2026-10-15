@@ -6,7 +6,11 @@ Hence all other sectors depend on commerce for financial health and positive cas
 
 
 
-# Sectors of Commerce
+# Commercial Entities
+
+## Estates
+
+
 
 ## Markets
 
@@ -18,28 +22,19 @@ Markets represent general consumer retail. Anything from foods to clothing and f
 - Transformation Sector
 
 
-## Factories
+## Workshops
 
-Factories, represent specialized retail, repair and skilled trades. The factory focuses on one material. Wood, stone, metal etc. If you want to acquire furniture, decorations for buildings or materials for production, you can visit the factories and find what you need there. The "Sectors of Industry" the "factories" depend on are;
-
-- Primary Sector
-- Market Goods Sector
-- Manufacturing Sector
-- Energy Sector
+Workshops, represent specialized retail, repair and skilled trades. The Workshop focuses on one material. Wood, stone, metal etc. If you want to acquire furniture, decorations for buildings or materials for production, you can visit the workshops and find what you need there. The "Sectors of Industry" the "workshops" depend on are;
 
 
 ## Stores 
 
 Stores are specialized retail like workshops only they don't specialize in a material they focus on magic tools, chemicals, etc.
 
-## Amenities
 
-Amenities are public service businesses. Restaurants, hostels, bars etc.
+## Offices
 
-- <span style="color:rgb(100, 0, 100)">Primary Sector</span>
-- <span style="color:rgb(100, 0, 100)">Market Goods Sector</span>
-
-
+Offices are where contract negotiation takes place. The owner of a business can often be found in an office.
 
 ## Trading Houses
 
@@ -54,3 +49,14 @@ The trading houses are where the people go to buy company stock. You can go ther
 - Energy Sector
 
 
+## Factories
+
+Factories deal in specialized retail items only they are meant for mass production and are off world structures. Many factories exist in the world as assets for organizations to own. Their impact is felt on the market.
+
+## Institutions
+
+Some institutions in Victoria have commercial purposes. For example the academy who acts as a research facility as well as an educational space, has a store selling chemicals because the academy produces some. 
+
+## Public Venues
+
+Many public venues are commercial businesses. Such as restaurants, bars, hostels. Some public venues also contain store like the library.
