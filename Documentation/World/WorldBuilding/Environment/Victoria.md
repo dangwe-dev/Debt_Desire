@@ -1,6 +1,6 @@
 
 Victoria, is the name of the city where "Debt & Desire" takes place. 
-The city lies within a large basin. A large cavity formed within a mountain with one large opening to enter at the front while a crescent shaped cliff barrier forms a natural barrier along the back of the city. Waterfalls flow down the cliff and feed the basin. This water source helped shape the form of the basin through years of erosion. 
+The city lies within a large basin. A wide cavity formed within a mountain with a grand opening to enter at the front while a crescent shaped cliff barrier forms a natural barrier along the back of the city. Waterfalls flow down the cliff and feed the basin. This water source helped shape the form of the basin through years of erosion. 
 At the base of the basin, a network of canals redirect the water excess outside of the city area and also strategically distributes the water through the city by using the sewers, plumbing and gutters. These canals help the city take advantage of its natural source of water in the most optimal manner making water part of Victoria's infrastructure.
 
 
@@ -11,7 +11,7 @@ At the base of the basin, a network of canals redirect the water excess outside 
 
 The architecture in Victoria takes most of its inspiration from the 19th century Victorian Styles. The Victorian influences are meant to give a feeling of familiarity to the player. The city has an air of old Europe yet is a fictitious metropolis with magic at its center.
 
-The city is divided in layers. Every layer, can be identified by a tall and wide arcade retaining terraces lining the city. Every terrace retaining wall rises from the layer below it giving the city its characteristic stacked appearance.
+The city is divided in layers. Every layer, can be identified by a tall and wide arcade retaining terraces lining the city. Every terrace retaining wall rises from the layer below giving the city its characteristic stacked appearance.
 
 Each retaining terrace forms a monumental architectural boundary between layers of the city. Large arcades are integrated into these walls, creating openings through which staircases and other circulation routes connect one level to the next.
 

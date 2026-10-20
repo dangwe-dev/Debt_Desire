@@ -30,10 +30,10 @@ Services are also physically present in game only you don't interact with the lo
 
 | INDUSTRY             | OWNERS                                                                                   | FUNCTION                                                   |
 | -------------------- | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
-| Agriculture          | - Co-Operatives                                                                          | - Supplier                                                 |
-| Fish                 | - Co-Operatives                                                                          | - Supplier                                                 |
-| Mining               | - Co-Operatives<br>- House Corporations                                                  | - Supplier                                                 |
-| Forestry             | - Co-Operatives<br>- House Corporations                                                  | - Supplier                                                 |
+| Agriculture          | - Co-Operatives                                                                          | - Supplier<br>- Manufacturer                               |
+| Fish                 | - Co-Operatives                                                                          | - Supplier<br>- Manufacturer                               |
+| Mining               | - Co-Operatives<br>- House Corporations                                                  | - Supplier<br>- Manufacturer                               |
+| Forestry             | - Co-Operatives<br>- House Corporations                                                  | - Supplier<br>- Manufacturer                               |
 | <br>Food             | - Commercial Corporations<br>- Chartered Firms<br>- Partnerships                         | - Manufacturor<br>- Distributor<br>- Service               |
 | <br>Textiles         | - Commercial Corporations<br>- Chartered Firms<br>- Partnerships                         | - Manufacturer<br>- Distributor                            |
 | <br>Leather          | - Commercial Corporations<br>- Chartered Firms<br>- Partnerships                         | - Manufacturer<br>- Distributor                            |

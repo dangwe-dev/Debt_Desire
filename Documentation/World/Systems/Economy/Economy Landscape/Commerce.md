@@ -51,7 +51,7 @@ The trading houses are where the people go to buy company stock. You can go ther
 
 ## Factories
 
-Factories deal in specialized retail items only they are meant for mass production and are off world structures. Many factories exist in the world as assets for organizations to own. Their impact is felt on the market.
+Factories deal in mass production and are off world structures. Many factories exist in the world as assets for organizations to own. Their impact is felt on the market.
 
 ## Institutions
 

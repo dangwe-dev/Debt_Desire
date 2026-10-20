@@ -1,0 +1,34 @@
+{
+	"nodes":[
+		{"id":"9d5107e431e2719e","type":"text","text":"RED = PRIMARY SECTOR","x":-520,"y":-420,"width":250,"height":60,"color":"1"},
+		{"id":"0cbe5544be42a448","type":"text","text":"PURPLE = DEVELOPMENT","x":900,"y":-420,"width":250,"height":60,"color":"6"},
+		{"id":"ab2fc362fed3f0a9","type":"text","text":"PINK = FUEL","x":1180,"y":-420,"width":250,"height":60,"color":"#ec7eb9"},
+		{"id":"83f1d421bd6f6757","type":"text","text":"BLUE = MARKET GOODS","x":-240,"y":-420,"width":250,"height":60,"color":"5"},
+		{"id":"83653b27b5e88934","type":"text","text":"GREEN = MANUFACTURING","x":40,"y":-420,"width":250,"height":60,"color":"4"},
+		{"id":"d9024e7f00a59749","type":"text","text":"YELLOW = TRANSFORMATION","x":320,"y":-420,"width":250,"height":60,"color":"2"},
+		{"id":"2e542ff749c0c9a3","type":"text","text":"YELLOW = LOGISTICS","x":620,"y":-420,"width":250,"height":60,"color":"3"},
+		{"id":"bffe059957f794e3","type":"text","text":"PAPER & PRINTING","x":290,"y":504,"width":250,"height":60,"color":"5"},
+		{"id":"9472a094ebdd16a0","type":"text","text":"MAGIC TOOLS","x":290,"y":640,"width":250,"height":60,"color":"5"},
+		{"id":"df0dd9548de11aca","type":"text","text":"WOODCRAFT\n","x":290,"y":295,"width":250,"height":50,"color":"5"},
+		{"id":"237ea65480cb7779","type":"text","text":"LEATHER","x":290,"y":100,"width":250,"height":60,"color":"5"},
+		{"id":"432fb1749384b784","type":"text","text":"TEXTILES","x":290,"y":-90,"width":250,"height":60,"color":"5"},
+		{"id":"2f09c51da410877e","type":"text","text":"FOOD","x":290,"y":-240,"width":250,"height":60,"color":"5"},
+		{"id":"ffa634fbddd49591","type":"text","text":"STONE CRAFT","x":290,"y":400,"width":250,"height":60,"color":"5"},
+		{"id":"7ce3449e1ae06041","type":"text","text":"MINING","x":-560,"y":370,"width":250,"height":60,"color":"1"},
+		{"id":"6ec51a5ed7574305","type":"text","text":"FORESTRY","x":-560,"y":530,"width":250,"height":60,"color":"1"},
+		{"id":"2b7ef17a793070a7","type":"text","text":"AGRICULTURE","x":-560,"y":-120,"width":250,"height":60,"color":"1"},
+		{"id":"4fc8dfbbaad54442","type":"text","text":"FISHING","x":-560,"y":40,"width":250,"height":60,"color":"1"}
+	],
+	"edges":[
+		{"id":"6c4d1c544d51cb66","fromNode":"2b7ef17a793070a7","fromSide":"right","toNode":"2f09c51da410877e","toSide":"left"},
+		{"id":"eaad6fa4ed8383bd","fromNode":"2b7ef17a793070a7","fromSide":"right","toNode":"237ea65480cb7779","toSide":"left"},
+		{"id":"5d66ab1a4cfb39f7","fromNode":"2b7ef17a793070a7","fromSide":"right","toNode":"432fb1749384b784","toSide":"left"},
+		{"id":"a12838651cf5dabe","fromNode":"4fc8dfbbaad54442","fromSide":"right","toNode":"2f09c51da410877e","toSide":"left"},
+		{"id":"90f4a2a42178063b","fromNode":"6ec51a5ed7574305","fromSide":"right","toNode":"df0dd9548de11aca","toSide":"left"},
+		{"id":"a1da228a7c113d86","fromNode":"7ce3449e1ae06041","fromSide":"right","toNode":"ffa634fbddd49591","toSide":"left"},
+		{"id":"9dde161d5908d261","fromNode":"6ec51a5ed7574305","fromSide":"right","toNode":"bffe059957f794e3","toSide":"left"},
+		{"id":"cfc3110b81e83386","fromNode":"6ec51a5ed7574305","fromSide":"right","toNode":"9472a094ebdd16a0","toSide":"left"},
+		{"id":"6edfc4a836922833","fromNode":"7ce3449e1ae06041","fromSide":"right","toNode":"9472a094ebdd16a0","toSide":"left"},
+		{"id":"7dd01bea70a2eeae","fromNode":"4fc8dfbbaad54442","fromSide":"right","toNode":"9472a094ebdd16a0","toSide":"left"}
+	]
+}
