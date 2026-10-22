@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "World/Systems/Economy/Economy Landscape/Commerce.md",
+                "file": "World/Systems/Economy/Economy Landscape/Organizations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Commerce"
+              "title": "Organizations"
             }
           },
           {
@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "World/Systems/Economy/Production/Industry List.md",
+                "file": "World/Systems/Economy/Entities/Public Venues.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Industry List"
+              "title": "Public Venues"
             }
           },
           {
@@ -50,8 +50,7 @@
               "title": "Sectors of Industry"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "936659d519d44bb0",
@@ -134,12 +133,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "World/Systems/Economy/FLOW/Commodity Dependance.md",
+                "file": "World/Systems/Society/Population Count.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Commodity Dependance"
+              "title": "Population Count"
             }
           },
           {
@@ -148,16 +147,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "World/Systems/Economy/FLOW/Commodity Dependance.md",
+                "file": "World/Systems/Economy/Marketplace/Market Access.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Commodity Dependance"
+              "title": "Market Access"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -321,29 +320,31 @@
       "bases:Create new base": false
     }
   },
-  "active": "e82dcd3bf7a1f986",
+  "active": "ad71c1c6e7c429e2",
   "lastOpenFiles": [
-    "Untitled.canvas",
-    "World/Systems/Economy/Production/Sectors of Industry.md",
+    "World/Systems/Society/Social Class.md",
+    "World/Systems/Society/Population Count.md",
+    "World/Systems/Economy/Marketplace/Economic Stratification.md",
+    "World/Systems/Economy/Economy Landscape/Organizations.md",
+    "World/Systems/Economy/Entities/Public Venues.md",
+    "World/Systems/Economy/Entities/Institutions.md",
     "World/Systems/Economy/Production/Industry List.md",
+    "World/Systems/Economy/Economy Landscape/Commerce.md",
+    "World/Systems/NPC/Behaviour.md",
+    "World/Systems/Economy/Production/Functions of Industry.md",
+    "Untitled.canvas",
+    "World/Systems/Economy/Entities/Marketplace Entities.md",
     "World/Systems/Economy/FLOW/Commodity Dependance.md",
+    "World/Systems/Economy/Production/Sectors of Industry.md",
     "World/Systems/Economy/Marketplace/Market Access.md",
     "World/Systems/Economy/Production/Raw Materials.md",
-    "World/Systems/Economy/Economy Landscape/Commerce.md",
     "QUESTIONS.md",
     "Untitled.base",
     "2026-10-01.md",
-    "World/Systems/Economy/Entities/Marketplace Entities.md",
     "World/Systems/Economy/Production/X_Dollar Map.canvas",
-    "World/Systems/Economy/Marketplace/Economic Stratification.md",
     "World/Systems/Economy/FLOW/Flow of Currency.md",
-    "World/Systems/Economy/Economy Landscape/Organizations.md",
-    "World/Systems/Economy/Entities/Institutions.md",
-    "World/Systems/Economy/Entities/Public Venues.md",
     "World/WorldBuilding/Society/Victorian Society.md",
     "World/WorldBuilding/Environment/Victoria.md",
-    "World/Systems/NPC/Population.md",
-    "World/Systems/Economy/Production/Functions of Industry.md",
     "World/Systems/NPC/Population",
     "World/Systems/Economy/FLOW",
     "World/WorldBuilding",
@@ -354,12 +355,11 @@
     "World/Economy/Marketplace/Physical Establishments.md",
     "World/Economy/ENTITIES/Victoria's Entities Draft.md",
     "World/Systems/Economy/Entities",
-    "World/Systems/NPC/Behaviour.md",
     "World/Economy/MarketPlace/Flow of Goods.md",
     "World/Economy/Production/Sector Definitions",
     "World/Systems/Economy/Marketplace",
     "World/Systems/Players",
-    "World/Systems/NPC",
+    "World/Systems/Society",
     "Primary_Sector_Chart.canvas",
     "Economy Mapping/Untitled.canvas",
     "Untitled 1.canvas"
