@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "World/Systems/Economy/Economy Landscape/Organizations.md",
+                "file": "World/Systems/Society/Hierarchy/Social Class.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Organizations"
+              "title": "Social Class"
             }
           },
           {
@@ -133,12 +133,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "World/Systems/Society/Population Count.md",
+                "file": "World/Systems/Society/Citizens/Citizen Profiles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Population Count"
+              "title": "Citizen Profiles"
             }
           },
           {
@@ -320,24 +320,31 @@
       "bases:Create new base": false
     }
   },
-  "active": "ad71c1c6e7c429e2",
+  "active": "45bfd97ea4678855",
   "lastOpenFiles": [
-    "World/Systems/Society/Social Class.md",
-    "World/Systems/Society/Population Count.md",
-    "World/Systems/Economy/Marketplace/Economic Stratification.md",
+    "World/Systems/Society/Demography/Population Composition.md",
+    "World/Systems/Economy/Production/Industry List.md",
+    "World/Systems/Economy/Production/Raw Materials.md",
+    "World/Systems/Economy/Production/Functions of Industry.md",
+    "World/Systems/Society/Demography/Community Profiles.md",
+    "World/Systems/Society/Hierarchy/Social Class.md",
+    "World/Systems/Society/Citizens/Citizen Profiles.md",
+    "World/Systems/Society/Citizens/MOODS.md",
+    "World/Systems/Society/Citizens/Untitled",
+    "World/Systems/Society/Citizens",
     "World/Systems/Economy/Economy Landscape/Organizations.md",
+    "World/Systems/Society/Hierarchy",
+    "World/Systems/Society/Demography",
+    "World/Systems/Economy/Marketplace/Economic Stratification.md",
     "World/Systems/Economy/Entities/Public Venues.md",
     "World/Systems/Economy/Entities/Institutions.md",
-    "World/Systems/Economy/Production/Industry List.md",
     "World/Systems/Economy/Economy Landscape/Commerce.md",
     "World/Systems/NPC/Behaviour.md",
-    "World/Systems/Economy/Production/Functions of Industry.md",
     "Untitled.canvas",
     "World/Systems/Economy/Entities/Marketplace Entities.md",
     "World/Systems/Economy/FLOW/Commodity Dependance.md",
     "World/Systems/Economy/Production/Sectors of Industry.md",
     "World/Systems/Economy/Marketplace/Market Access.md",
-    "World/Systems/Economy/Production/Raw Materials.md",
     "QUESTIONS.md",
     "Untitled.base",
     "2026-10-01.md",
@@ -352,14 +359,7 @@
     "World/Economy/Marketplace/Commercial Access.md",
     "World/Economy/ENTITIES/Corporate Entities.md",
     "World/Economy/Marketplace/Flow Map Draft_Flow of Goods.md",
-    "World/Economy/Marketplace/Physical Establishments.md",
-    "World/Economy/ENTITIES/Victoria's Entities Draft.md",
     "World/Systems/Economy/Entities",
-    "World/Economy/MarketPlace/Flow of Goods.md",
-    "World/Economy/Production/Sector Definitions",
-    "World/Systems/Economy/Marketplace",
-    "World/Systems/Players",
-    "World/Systems/Society",
     "Primary_Sector_Chart.canvas",
     "Economy Mapping/Untitled.canvas",
     "Untitled 1.canvas"
