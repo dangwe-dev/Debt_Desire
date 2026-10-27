@@ -11,7 +11,6 @@
 		{"id":"c1292d6ec461c46c","type":"text","text":"Sell","x":321,"y":-610,"width":99,"height":60},
 		{"id":"e224b161324f16ba","type":"text","text":"Reserves","x":-340,"y":-740,"width":116,"height":60},
 		{"id":"c9d9052041bed025","type":"text","text":"Revenue","x":604,"y":140,"width":103,"height":60},
-		{"id":"76af877505f436b0","type":"text","text":"Government","x":436,"y":420,"width":132,"height":60},
 		{"id":"fd9938eb4a95ebca","type":"text","text":"Profit","x":594,"y":600,"width":115,"height":60},
 		{"id":"0bcc288c618102c5","type":"text","text":"Investments","x":574,"y":740,"width":154,"height":60},
 		{"id":"4ad5e45398351754","type":"text","text":"Donations","x":141,"y":-60,"width":230,"height":60},
@@ -26,9 +25,10 @@
 		{"id":"8a137eb850b0222c","type":"text","text":"Sectors of Industry","x":145,"y":1140,"width":250,"height":60},
 		{"id":"905b7803f0942a1b","type":"text","text":"Daily Resources","x":-112,"y":-740,"width":125,"height":60},
 		{"id":"c2a86a1d00de15a1","type":"text","text":"Price (Fluctuates)","x":-38,"y":-580,"width":152,"height":60},
-		{"id":"5ee9ed4f4ea6bc7f","type":"text","text":"Salaries","x":820,"y":420,"width":125,"height":60},
-		{"id":"fbfbc51fa0ae6bcc","type":"text","text":"Institutions","x":594,"y":420,"width":142,"height":60},
-		{"id":"97c6c10aa655317a","x":-268,"y":-1079,"width":250,"height":60,"type":"text","text":"[[Commerce]]"}
+		{"id":"97c6c10aa655317a","type":"text","text":"[[Commerce]]","x":-268,"y":-1079,"width":250,"height":60},
+		{"id":"fbfbc51fa0ae6bcc","type":"text","text":"Institutions","x":586,"y":480,"width":142,"height":60},
+		{"id":"76af877505f436b0","type":"text","text":"Government","x":420,"y":480,"width":132,"height":60},
+		{"id":"5ee9ed4f4ea6bc7f","type":"text","text":"Salaries","x":781,"y":480,"width":125,"height":60}
 	],
 	"edges":[
 		{"id":"81b6c21654cf25d6","fromNode":"905b7803f0942a1b","fromSide":"bottom","toNode":"2c9f00921601a00f","toSide":"top"},
