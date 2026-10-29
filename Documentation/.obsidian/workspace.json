@@ -42,15 +42,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "World/Systems/Economy/Production/Sectors of Industry.md",
+                "file": "World/Systems/Economy/Production/Industry List.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sectors of Industry"
+              "title": "Industry List"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "936659d519d44bb0",
@@ -306,11 +307,19 @@
       "bases:Create new base": false
     }
   },
-  "active": "d2bae2cfd82d7546",
+  "active": "ad71c1c6e7c429e2",
   "lastOpenFiles": [
-    "World/Concepts",
-    "World/Systems/Society/Citizens/Citizen Profiles.md",
+    "World/Systems/Economy/Production/Industry List.md",
+    "World/Systems/Economy/Production/Sectors of Industry.md",
+    "World/Systems/Economy/Entities/Public Venues.md",
     "World/Systems/Economy/Banking/Assets.md",
+    "World/Systems/Society/Citizens/Citizen Profiles.md",
+    "World/Concept/Vision/Auditory Design.md",
+    "World/Concept/Vision/Visual Story Telling.md",
+    "World/Concept/Vision/Setting.md",
+    "World/Concept/Debt & Desire.md",
+    "World/Concept/Vision",
+    "World/Concept",
     "World/Systems/Economy/Banking",
     "World/Systems/Society/Demography/Population Composition.md",
     "World/Systems/Society/Demography/Community Profiles.md",
@@ -322,15 +331,12 @@
     "Untitled.canvas",
     "World/Systems/Economy/Entities/Marketplace Entities.md",
     "World/Systems/Economy/Entities/Institutions.md",
-    "World/Systems/Economy/Entities/Public Venues.md",
     "World/Systems/Economy/Economy Landscape/Commerce.md",
     "World/Systems/Economy/Economy Landscape/Organizations.md",
     "World/Systems/Economy/Production/Raw Materials.md",
-    "World/Systems/Economy/Production/Industry List.md",
     "World/WorldBuilding/Environment/Victoria.md",
     "World/WorldBuilding/Society/Victorian Society.md",
     "World/Systems/Economy/Production/Functions of Industry.md",
-    "World/Systems/Economy/Production/Sectors of Industry.md",
     "World/Systems/Society/Citizens/MOODS.md",
     "World/Systems/Society/Citizens/Untitled",
     "World/Systems/Society/Citizens",
@@ -338,14 +344,9 @@
     "World/Systems/Society/Demography",
     "World/Systems/NPC/Behaviour.md",
     "World/Systems/Economy/FLOW/Commodity Dependance.md",
-    "QUESTIONS.md",
     "Untitled.base",
-    "2026-10-01.md",
-    "World/Systems/Economy/FLOW/Flow of Currency.md",
     "World/Systems/NPC/Population",
     "World/Systems/Economy/FLOW",
-    "World/WorldBuilding",
-    "World/Economy/Economy Landscape/Institutions",
     "Primary_Sector_Chart.canvas",
     "Economy Mapping/Untitled.canvas",
     "Untitled 1.canvas"

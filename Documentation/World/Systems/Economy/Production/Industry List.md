@@ -36,5 +36,5 @@ The major sectors of industry contain all of the necessary sectors for the city 
 | <span style="color:rgb(80, 208, 255)">Commerce</span>     | <span style="color:rgb(80, 208, 255)">Wholesale, Logistics, Retail</span>                |     |     |
 | <span style="color:rgb(200, 0, 200)">Public Venues</span> | <span style="color:rgb(200, 0, 200)">Landmarks, Attractions, Traditional Services</span> |     |     |
 | <span style="color:rgb(250, 0, 80)">Institutions</span>   | <span style="color:rgb(200, 0, 80)">Offices, Public Services, Government</span>          |     |     |
-| ==Finance==                                               | ==Loans, Banking, Insurance==                                                            |     |     |
+| ==Finance==                                               | ==Loans, Banking, Debt==                                                                 |     |     |
 
