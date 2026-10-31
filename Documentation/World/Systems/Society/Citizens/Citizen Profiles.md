@@ -24,12 +24,19 @@ Age does have some weight in Debt & Desire. It influences the probability of inc
 
 ## Incomes
 
+
+
 ## Debt
+
 
 
 
 # Occupation
 
 ## Title
+
+
+Titles are held by every citizens 
+
 
 ## Profession
