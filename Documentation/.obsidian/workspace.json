@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "World/Systems/Economy/Production/Resources/Estates.md",
+                "file": "World/Concept/Vision/Economy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Estates"
+              "title": "Economy"
             }
           }
         ],
@@ -281,12 +281,14 @@
   },
   "active": "ad71c1c6e7c429e2",
   "lastOpenFiles": [
+    "World/Concept/Debt & Desire.md",
+    "World/Concept/Vision/Economy.md",
+    "World/Systems/Economy/Production/Resources/Estates.md",
     "World/Systems/Society/Hierarchy/Social Class.md",
     "World/Systems/Environment/Weather.md",
     "World/Systems/Economy/Production/Industry/Functions of Industry.md",
     "World/Systems/Society/Hierarchy/Titles.md",
     "World/Systems/Economy/Production/Resources/Factories.md",
-    "World/Systems/Economy/Production/Resources/Estates.md",
     "World/Systems/Economy/Entities/Marketplace Entities.md",
     "World/Systems/Economy/Entities/Institutions.md",
     "World/Systems/Economy/Entities/Public Venues.md",
@@ -306,8 +308,6 @@
     "World/Systems/Economy/Marketplace/Economic Stratification.md",
     "World/Systems/Economy/FLOW/Flow of Currency.md",
     "World/Systems/Economy/FLOW/Commodity Dependencies.md",
-    "World/Systems/Society/Citizens/MOODS.md",
-    "World/Systems/Society/Citizens/Citizen Profiles.md",
     "World/Systems/Environment",
     "World/Systems/Economy/Production/X_Dollar Map.canvas",
     "World/Systems/Economy/Production/Resources",
