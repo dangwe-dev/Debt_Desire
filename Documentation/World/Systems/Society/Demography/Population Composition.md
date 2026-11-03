@@ -1,3 +1,4 @@
+[[Citizen Profiles]]
 
 
 The population composition of Victoria is maintained by a series of constant foundational metrics. These metrics describe marital status, family size, the weight social classes carry and social composition probabilities.

@@ -1,3 +1,4 @@
+[[Debt & Desire]]
 
 The vision I had on September 22 2026 was of a world where plotting and backstabbing took place every day. I had this desire to create a setting where players would have to help each other navigate the complexities of court. 
 The idea was enchanting to me. I love to explore power dynamics in social settings. The more I developed the idea the more I thought I would benefit from making the game a window into the world I have been writing for some years now. The initial idea quickly changed from a court setting to a metropolitan city in the Victorian era where citizens are hungry for material wealth and social standing. 

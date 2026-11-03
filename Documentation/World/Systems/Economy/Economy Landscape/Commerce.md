@@ -8,9 +8,6 @@ Hence all other sectors depend on commerce for financial health and positive cas
 
 # Commercial Entities
 
-## Estates
-
-
 
 ## Markets
 
@@ -49,14 +46,16 @@ The trading houses are where the people go to buy company stock. You can go ther
 - Energy Sector
 
 
-## Factories
 
-Factories deal in mass production and are off world structures. Many factories exist in the world as assets for organizations to own. Their impact is felt on the market.
 
-## Institutions
+# Entities with Commercial Outlets
+
+
+
+## <span style="color:rgb(255, 150, 200)">Institutions</span>
 
 Some institutions in Victoria have commercial purposes. For example the academy who acts as a research facility as well as an educational space, has a store selling chemicals because the academy produces some. 
 
-## Public Venues
+## <span style="color:rgb(255, 150, 200)">Public Venues</span>
 
 Many public venues are commercial businesses. Such as restaurants, bars, hostels. Some public venues also contain store like the library.

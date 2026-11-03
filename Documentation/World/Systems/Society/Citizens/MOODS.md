@@ -1,2 +1,4 @@
+[[Citizen Profiles]]
+
 
 Moods are the secret behind the NPC AI system governing the Victorians. The entire demography of Victoria is governed by moods. These moods affect how the Victorians react to the player and between themselves. 

@@ -1,3 +1,4 @@
+[[Debt & Desire]]
 
 The visuals in Debt & Desire are a big part of the gameplay. They don't simply contribute to making the game aesthetically pleasing. The goal is to make a multiplayer, co-op game. The accent is put on the gameplay and the dynamics with other players and NPC's. Little to no effort will be put into storytelling elements. It would require time and effort to create story elements. 
 Nevertheless, it is important to create a narrative for immersion purposes. The players must feel like they are incarnating a live entity in another world. Having the feeling of entering a new world coupled with an attractive setting. These are elements that make a game attractive and contribute to returning players.

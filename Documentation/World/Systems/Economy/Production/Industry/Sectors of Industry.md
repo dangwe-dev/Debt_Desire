@@ -1,4 +1,4 @@
-
+[[Organizations]]
 
 The "Sectors of Industry" in "Debt & Desire" are classes containing similar types of industries within them. The goal is to have these sectors act like groups to easily organise the 24 industries within the game.
 These groups will later be used to facilitate relationships between the different layers of economy and to craft the "Cause & Effect" system intended to allow the player to influence the economy through their actions
