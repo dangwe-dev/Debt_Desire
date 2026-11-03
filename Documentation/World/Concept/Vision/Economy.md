@@ -17,5 +17,5 @@ Considering debt means being wanted by the debt collectors, adding the feeling o
 
 When the player is badly in debt and can't borrow from a bank, he becomes an underclass citizen and must borrow from loan sharks with even more absurd interest rates.
 
-
+ 
 
