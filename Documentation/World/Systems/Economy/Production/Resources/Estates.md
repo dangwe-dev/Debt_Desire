@@ -44,3 +44,6 @@ These lands, are where the fishing and diving takes place.
 ## Wetlands
 
 Wet lands are home to minerals and other resources you can find in humid lands.
+
+
+

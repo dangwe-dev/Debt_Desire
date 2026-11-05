@@ -14,7 +14,7 @@ The major sectors of industry contain all of the necessary sectors for the city 
 | Fishing                                                   | Fish, Shellfish, Aquatic Plants, Fish Oil, Algae                                         |
 | Mining                                                    | Coal, Ores, Minerals, Mana Crystals, Stones                                              |
 | Forestry                                                  | Timber, Wood                                                                             |
-| Food                                                      | Milling, Meat, Dairy, Beverages                                                          |
+| Food Processing                                           | Milling, Meat, Dairy, Beverages                                                          |
 | Textiles                                                  | Clothing, Cloth, Rope                                                                    |
 | Leather                                                   | Furniture, Leather goods, Footwear                                                       |
 | Woodcraft                                                 | Furniture, Barrels, Wooden goods                                                         |
