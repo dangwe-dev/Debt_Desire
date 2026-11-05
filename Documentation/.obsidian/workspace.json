@@ -70,12 +70,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "World/Systems/Society/Hierarchy/Titles.md",
+                "file": "World/Systems/Economy/Production/Resources/Estate Composition.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Titles"
+              "title": "Estate Composition"
             }
           }
         ],
@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "World/Systems/Environment/Weather.md",
+                "file": "World/Systems/Society/Demography/Community Profiles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Weather"
+              "title": "Community Profiles"
             }
           },
           {
@@ -142,8 +142,7 @@
               "title": "Population Composition"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -309,9 +308,11 @@
   },
   "active": "431f500b3b52b75c",
   "lastOpenFiles": [
-    "World/Systems/Society/Demography/Community Profiles.md",
-    "World/Systems/Society/Demography/Population Composition.md",
     "World/Systems/Society/Hierarchy/Titles.md",
+    "World/Systems/Society/Demography/Population Composition.md",
+    "World/Systems/Society/Demography/Community Profiles.md",
+    "World/Systems/Society/Hierarchy/Social Class.md",
+    "World/Systems/Environment/Weather.md",
     "World/Systems/Society/Citizens/Citizen Profiles.md",
     "World/Systems/Economy/FLOW/Commodity Dependencies.canvas",
     "World/Systems/Economy/Production/Industry/Functions of Industry.md",
@@ -322,9 +323,7 @@
     "World/Systems/Economy/Production/Industry/Industry List.md",
     "World/Systems/Economy/Production/Industry/Sectors of Industry.md",
     "World/Systems/Environment/Weather Impact.md",
-    "World/Systems/Environment/Weather.md",
     "World/Systems/Economy/FLOW/Supply.md",
-    "World/Systems/Society/Hierarchy/Social Class.md",
     "World/Systems/Society/Citizens/Relationships.md",
     "World/Systems/Society/Citizens/MOODS.md",
     "World/Systems/Economy/Marketplace/Economic Stratification.md",

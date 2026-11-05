@@ -12,6 +12,17 @@ Every social metric has a minimum and maximum value representing the potential a
 ## <span style="color:rgb(250, 100, 255)">MINIMUM 1000 CITIZENS</span>  
 
 
+**Average Number of families at minimum citizen capacity.
+
+| SOCIAL CLASS | FAMILIES |
+| ------------ | -------- |
+| Oligarchs    | 20       |
+| Gentry       | 20       |
+| Middle Class | 100      |
+| Underclass   | 39       |
+| Total        | 179      |
+
+
 | SOCIAL <br>CLASS | HOUSEHOLDS<br>DISTRIBUTION                                                                                                          | Family<br>MEMBERS | BACHELORS | TOTAL<br>CITIZENS | SOCIAL <br>DISTRIBUTION |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ----------------- | --------- | ----------------- | ----------------------- |
 | Oligarchs        | <span style="color:rgb(100, 200, 200)">- Families: 92.6%</span><br><span style="color:rgb(250, 100, 255)">- Bachelors: 7.4%</span>  | 125               | 10        | 135               | 13.5% Occupancy         |
@@ -20,7 +31,21 @@ Every social metric has a minimum and maximum value representing the potential a
 | Under Class      | <span style="color:rgb(100, 200, 200)">- Families: 81.9%</span><br><span style="color:rgb(250, 100, 255)">- Bachelors: 18.1%</span> | 181               | 40        | 221               | 22.1%  Occupancy        |
 | TOTAL            | <span style="color:rgb(100, 200, 200)">- Families: 87.5%</span><br><span style="color:rgb(250, 100, 255)">- Bachelors: 12.5%</span> | 875               | 125       | 1000              | 100%                    |
 
+
+
 ## <span style="color:rgb(100, 200, 200)">MAXIMUM 1500 CITIZENS</span>
+
+
+**Average Number of families at maximum citizen capacity.
+
+| SOCIAL CLASS | FAMILIES |
+| ------------ | -------- |
+| Oligarchs    | 30       |
+| Gentry       | 30       |
+| Middle Class | 150      |
+| Underclass   | 58.5     |
+| Total        | 268.5    |
+
 
 | SOCIAL <br>CLASS | HOUSEHOLDS<br>DISTRIBUTION                                                                                                          | Family<br>MEMBERS | BACHELORS | TOTAL<br>CITIZENS | SOCIAL <br>DISTRIBUTION |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ----------------- | --------- | ----------------- | ----------------------- |

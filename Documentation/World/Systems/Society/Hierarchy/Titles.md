@@ -29,3 +29,27 @@ If 20 oligarchic families
 - 4 Earls
 - 5 Viscounts
 - 6 Barons
+
+
+## Gentry
+
+
+Available titles
+
+- Business Owner
+- Banker
+
+## Middle Class
+
+Available titles
+
+- Business Owner
+- Banker
+- Worker
+
+## Underclass
+
+Available titles
+
+- Gang member
+- Beggar
