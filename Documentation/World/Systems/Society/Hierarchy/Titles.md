@@ -8,6 +8,24 @@ In addition to being a element allowing the player to decipher social class, tit
 # Available Titles
 
 
-## Oligarch
+## Financial Imperators
+
+The Financial Imperator title is given to to one of the 6 Syndicate members.
+This title gives the holder the most coveted power in all of Victoria and that is the power to control the lands, the banks, the titles and permits. Financial Imperators are essentially the ultimate rulers of the city. They also bypass the rule of one noble title per family. Making the families they hail from more powerful than a regular Oligarchic family. 
 
 
+## Oligarchs
+
+
+The Oligarchic families all hold one aristocratic title that can be inherited by family members. There are 5 titles in total all with a constant ratio of distribution being applied to them.
+
+
+If 1000 citizens
+Then 20 Oligarchic families most likely
+If 20 oligarchic families
+
+- 2 Dukes
+- 3 Marquess
+- 4 Earls
+- 5 Viscounts
+- 6 Barons
