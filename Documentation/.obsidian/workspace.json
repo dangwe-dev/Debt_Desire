@@ -70,12 +70,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "World/Systems/Economy/Production/Resources/Estate Composition.md",
+                "file": "World/Systems/Society/Hierarchy/Titles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Estate Composition"
+              "title": "Titles"
             }
           }
         ],
@@ -308,21 +308,22 @@
   },
   "active": "431f500b3b52b75c",
   "lastOpenFiles": [
+    "World/Systems/Economy/Production/Resources/Estates.md",
+    "World/Systems/Economy/Production/Resources/BIOMES.md",
+    "World/Systems/Economy/Production/X_Dollar Map.canvas",
+    "World/Systems/Economy/Production/Resources/Factories.md",
+    "World/Systems/Environment/Weather Impact.md",
+    "World/Systems/Environment/Weather.md",
     "World/Systems/Society/Hierarchy/Titles.md",
     "World/Systems/Society/Demography/Population Composition.md",
     "World/Systems/Society/Demography/Community Profiles.md",
     "World/Systems/Society/Hierarchy/Social Class.md",
-    "World/Systems/Environment/Weather.md",
     "World/Systems/Society/Citizens/Citizen Profiles.md",
     "World/Systems/Economy/FLOW/Commodity Dependencies.canvas",
     "World/Systems/Economy/Production/Industry/Functions of Industry.md",
-    "World/Systems/Economy/Production/Resources/Factories.md",
-    "World/Systems/Economy/Production/Resources/Estate Composition.md",
-    "World/Systems/Economy/Production/Resources/Estates.md",
     "World/Systems/Economy/Marketplace/Market Access.md",
     "World/Systems/Economy/Production/Industry/Industry List.md",
     "World/Systems/Economy/Production/Industry/Sectors of Industry.md",
-    "World/Systems/Environment/Weather Impact.md",
     "World/Systems/Economy/FLOW/Supply.md",
     "World/Systems/Society/Citizens/Relationships.md",
     "World/Systems/Society/Citizens/MOODS.md",
@@ -336,7 +337,6 @@
     "World/Systems/Economy/Entities/Public Venues.md",
     "Untitled.md",
     "World/Systems/Environment",
-    "World/Systems/Economy/Production/X_Dollar Map.canvas",
     "World/Systems/Economy/Production/Resources",
     "World/Systems/Economy/Production/Industry",
     "World/Systems/Economy/Production/Prod Sources",
