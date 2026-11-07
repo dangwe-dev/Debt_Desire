@@ -1,10 +1,5 @@
 
 
-## Commercial Entities List
-
-
-
-
 
 
 ## Public Venues Entity List

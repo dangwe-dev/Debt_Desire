@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "World/Systems/Economy/Production/Resources/Estates.md",
+                "file": "World/Systems/Society/Hierarchy/Status & Titles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Estates"
+              "title": "Status & Titles"
             }
           },
           {
@@ -79,7 +79,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       },
       {
         "id": "936659d519d44bb0",
@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "World/Systems/Economy/Entities/Public Venues.md",
+                "file": "World/Systems/Society/Demography/Estate Generation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Public Venues"
+              "title": "Estate Generation"
             }
           },
           {
@@ -142,7 +142,8 @@
               "title": "Population Composition"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -220,7 +221,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "World/Systems/Economy/Entities/Public Venues.md",
+                "file": "World/Systems/Society/Hierarchy/Status & Titles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,37 +308,37 @@
       "bases:Create new base": false
     }
   },
-  "active": "78cbb5ed222024ca",
+  "active": "cfa850847a5d0463",
   "lastOpenFiles": [
+    "World/Systems/Society/Demography/Estate Generation.md",
+    "World/Systems/Society/Demography/Population Composition.md",
+    "World/Systems/Society/Citizens/Citizen Profiles.md",
+    "World/Systems/Economy/Production/Resources/Estates.md",
+    "World/Systems/Society/Demography/Community Profiles.md",
+    "World/Systems/Economy/Production/Resources/Untitled.md",
+    "World/Systems/Economy/Production/Resources/Factories.md",
+    "World/Systems/Society/Demography/E.md",
+    "2026-10-01.md",
+    "QUESTIONS.md",
+    "Untitled.canvas",
+    "World/Systems/Economy/Entities/Named Infrastructures.md",
+    "World/Systems/Economy/Entities/Public Venues.md",
     "World/Systems/Society/Hierarchy/Status & Titles.md",
     "World/Systems/Society/Hierarchy/Social Class.md",
-    "World/Systems/Economy/Entities/Public Venues.md",
     "World/Systems/Economy/Entities/Institutions.md",
-    "World/Systems/Society/Citizens/Citizen Profiles.md",
-    "World/Systems/Society/Demography/Community Profiles.md",
     "World/Systems/Economy/FLOW/Flow of Currency.md",
     "World/Systems/Economy/FLOW/Supply.md",
     "World/Systems/Economy/FLOW/Commodity Dependencies.canvas",
-    "World/Systems/Economy/Entities/Marketplace Entities.md",
     "World/Systems/Society/Citizens/Relationships.md",
-    "World/Systems/Economy/Production/Resources/Estates.md",
     "World/Systems/Economy/Production/Resources/BIOMES.md",
     "World/Systems/Economy/Production/X_Dollar Map.canvas",
-    "World/Systems/Economy/Production/Resources/Factories.md",
     "World/Systems/Environment/Weather Impact.md",
     "World/Systems/Environment/Weather.md",
-    "World/Systems/Society/Demography/Population Composition.md",
     "World/Systems/Economy/Production/Industry/Functions of Industry.md",
     "World/Systems/Economy/Marketplace/Market Access.md",
     "World/Systems/Economy/Production/Industry/Industry List.md",
     "World/Systems/Economy/Production/Industry/Sectors of Industry.md",
     "World/Systems/Society/Citizens/MOODS.md",
-    "World/Systems/Economy/Marketplace/Economic Stratification.md",
-    "World/Systems/Economy/FLOW/Commodity Dependencies.md",
-    "Untitled.canvas",
-    "World/Concept/Vision/Economy.md",
-    "World/Concept/Debt & Desire.md",
-    "Untitled.md",
     "World/Systems/Environment",
     "World/Systems/Economy/Production/Resources",
     "World/Systems/Economy/Production/Industry",

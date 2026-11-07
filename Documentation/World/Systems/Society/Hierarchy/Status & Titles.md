@@ -1,4 +1,4 @@
-
+	
 The Statuses in Debt & Desire are a metric that gives insight about social class to the players. Every citizen in Victoria has a status describing their social position.
 Titles on the other hand, grant different powers and defines behavior.
 Middle class titles are infinite but there is a finite number of upper class, and underclass titles. This mechanic ensures the game balances itself. I
