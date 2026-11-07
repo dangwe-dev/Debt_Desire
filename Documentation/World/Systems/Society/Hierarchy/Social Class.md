@@ -3,6 +3,7 @@
 
 #  The Upper Class
 
+
 The upper class in Victoria refers to the citizens with the most means. They usually reside in the upper levels of the city this being from the 5th layer to the 7th layer.
 The Upper class of Victoria owns all of the House Corporations and most of the Commercial Corporations in the city. This class has total control over the high Institution and the banks. Upper class members can always be found at the city's social club, "The Assembly Locals". 
 To be considered an "Upper class" citizen, you must have a certain amount of income coming in every day. Going below that value will have you lose your standing. Holdings, stock, properties, all of these generate income. Having some is a form of guarantee. Debt, is irrelevant to the social class. You can have more debt that income and still be upper class. The challenge becomes maintaining appearances and avoiding debt collectors.
