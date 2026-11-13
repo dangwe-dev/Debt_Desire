@@ -18,7 +18,7 @@ In addition to being a element allowing the player to predict behavior, titles a
 
 ## Commoner
 
-## Pariah
+## Vagrant
 
 
 
@@ -99,7 +99,7 @@ Victorians working in markets, workshops, stores, restaurants, the theatre, bars
 
 
 
-# <span style="color:rgb(200, 90, 200)">Pariah Titles</span>
+# <span style="color:rgb(200, 90, 200)">Vagrant Titles</span>
 
 
 

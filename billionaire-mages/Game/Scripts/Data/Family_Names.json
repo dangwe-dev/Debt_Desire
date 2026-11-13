@@ -1,0 +1,35 @@
+{
+    "Oligarch": 
+    [
+        "Ashford", "Augustus","Beaumont", "Beaulieu", "Campbell", 
+        "Carrington", "Colby", "Donnelly", "Durand", "Lannister", 
+        "Laurent", "Lemoine", "Livingstone", "Montclair", "Monte_Cristo", 
+        "Montgomery", "Rothwell", "Rousseau"
+    ],
+
+    "Gentile":
+    [
+        "Anders", "Armstrong", "Barnes", "Graham", "Hamilton", 
+        "Harris", "Lafortune", "Lafleur", 
+        "Mason", "Morgan", 
+        "Powell", "Sullivan", "Tudor"
+    ],
+
+    "Commoner":
+    [
+        "Adams", "Baker", "Bishop", "Burns", "Brown", "Carter", 
+        "Dupuis", "Green", "Griffin", "Hall", "Hearth", 
+        "Hill", "Hughes", "Johnson", "Miller", "Nelson", 
+        "Roberts", "Sanders", "Simmons", "Smith", "Stewart", 
+        "Williams", "Phillips", "White", "Young"
+    ],
+
+    "Vagrant":
+    [
+        "Baker", "Bennett", "Clark", "Davis", "Evans", 
+        "Fisher", "Garcia", "Harris", "Jackson",
+        "Lewis", "Moore", "Parker", 
+        "Robinson", "Scott", "Walker"
+    ]
+}
+

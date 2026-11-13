@@ -1,0 +1,76 @@
+{
+    "Oligarch": 
+    [
+       
+       "Adeleine", "Alanna", "Alethea", "Alexandria", "Amelia", 
+       "Bianka", 
+       "Camelia", "Celeste", "Celia", "Dulcine", "Eleanor", 
+       "Elissabeth", "Evaine", "Fiona", "Francesca", "Genevieve", 
+       "Isadora", "Isolde", "Laureline", "Lavinia", "Maude",
+       "Octavia", "Ophelia", "Orelia", "Rosalind",
+       "Seraphina"
+    ],  
+
+    "Gentile":
+    [
+       
+       "Adrienne", "Alexine", "Alfie", "Blanche", "Brandy", 
+       "Bryna", 
+       "Cathleen", "Cecilia", "Celine", "Claire", "Daniele", 
+       "Devonne","Doreen", "Eliza", "Elly", "Eloise", 
+       "Emmeline", "Estelle", "Felicity", "Fiona", "Fleur", 
+       "Florance", "Geneva", "Georgia", "Heidi", "Henrietta", 
+       "Hermione", "Irina", "Janel", "Joanna", "Kamila", 
+       "Lenora", "Liana", "Lilliana", "Loraine", "Lucinda", 
+       "Margot", "Meghan", "Melanie", "Nicolle", "Olwen", 
+       "Roselia", "Silvie", "Stella", "Valentina", "Victoria", 
+       "Vivienne"
+    ],
+
+    "Commoner":
+    [
+        
+        "Alicia", "Alison", "Alexis", "Ashley", "Aubrey", 
+        "Bailey", "Belva", "Berenice", "Brenda", "Brie",
+        "Caitlyn", "Cathy", "Chloe", "Christine", "Claudia", 
+        "Clementine", "Cleo", "Daisy", "Daphne", "Dorothy", 
+        "Elana", "Elaine", "Ellen", "Emma", "Emily", 
+        "Farah", "Fey", "Gianna", "Giselle", "Gloria", 
+        "Gretel", "Hailey", "Halsey", "Harper", "Helen", 
+        "Hilary", "Holly", "Isobel", "Jackie", "Janice", 
+        "Jill", "Joan", "Julia", "Juliette", "June", 
+        "Juvia", "Kaylee", "Kelsie", "Kendra", "Kimberly", 
+        "Kylie", "Laetitia", "Larissa", "Laura", "Lorilyn", 
+        "Lorri", "Luna", "Lydia", "Madison", "Makayla", 
+        "Marina", "Mathilde", "Maxine", "Maya", "Mia", 
+        "Monica", "Miranda", "Nadia", "Natalia", "Nicolette", 
+        "Noelle", "Nicaolle", "Odette",
+        "Paisley", "Pamela", "Paula", "Penelope", "Perle",  
+        "Peyton", "Phyllis", "Priscilla", "Rachel", "Rebecca", 
+        "Rose", "Roxanne", "Ruby", "Ruth", "Sarah", 
+        "Scarlett", "Shanon", "Sheila", "Sierra", "Sophie", "Stacy", 
+        "Tabitha", "Talia", "Teresa", "Tessa", "Tiffany", 
+        "Trudy",
+        "Valerie", "Vanessa", "Veronika", "Vikki", "Violet", 
+        "Whitney", "Yasmin", "Zara"
+        
+    ],
+
+    "Vagrant":
+    [
+        
+        "Aleta", "Alexa", "Babbie", "Barbara", "Bessie", 
+        "Birdie", "Bonny", "Brielle", "Carmen", "Cassie", "Cherry", 
+        "Christie", "Dahlia", "Didi", "Dixie", "Doris", 
+        "Effie", "Evangeline", "Evelyn", "Fannie", "Faye", 
+        "Frankie", "Gail", "Gigi", "Gertie", "Hannah", 
+        "Harmony", "Hazel", "Harper", "Iggy", "Imogen", "Isla", 
+        "Ivy", "Jada", "Jasmine", "Jacquelyn", "Jeanie", 
+        "Jocelyn", "Kaitlyn", "Lila", "Lily", "Lucie", 
+        "Madeline", "Maggie", "Marguerite", "Nancy", "Nina", 
+        "Nora", "Olivia", "Patricia", "Paula", "Penelope", 
+        "Quinn", "Raven", "Riley", "Shirley", "Sibby", 
+        "Vera", "Wendy", "Wilow", "Winnie", "Zoe"
+
+    ]
+}

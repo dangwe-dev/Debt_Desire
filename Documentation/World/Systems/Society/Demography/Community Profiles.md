@@ -3,7 +3,7 @@
 
 The population composition in Victoria follows a suite of average numbers who represent the number of people existing within every community. The city has social classes and different titled individuals as well as varying family dynamics. These averages define what the demography looks like.
 
-# Oligarchs & Gentry
+# Oligarchs & Gentry/Gentiles
 
 
 ## <span style="color:rgb(250, 100, 255)">MINIMUM 4 FAMILY Members</span>  
@@ -24,7 +24,7 @@ Small and Large Households are less common
 
 
 
-# Middle Class
+# Middle Class/Commoners
 
 
 ## <span style="color:rgb(250, 100, 255)">MINIMUM 2 FAMILY Members</span>  
@@ -48,7 +48,7 @@ Most likely 3/4 members per household.
 Large families are increasingly uncommon.
 
 
-# Under Class
+# Under Class/Vagrants
 
 
 ## <span style="color:rgb(250, 100, 255)">MINIMUM 2 FAMILY Members</span>  

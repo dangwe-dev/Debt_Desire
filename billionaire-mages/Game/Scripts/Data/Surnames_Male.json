@@ -1,0 +1,59 @@
+{
+    "Oligarch": 
+    [
+       "Alexander", "Alfred", "Alister", "Ansel", "Archibald", 
+       "Arthur", "Augustus", "Aurelien", "Benedict", 
+       "Blake","Charles", "Clement", "Constantine", "Cornelius", 
+       "Ebeneser", "Frederick", "Geoffrey", "Jacques", 
+       "James", "Kylian", "Marcus", "Percival",
+       "Phillip", "Pierre", "Richard", "Simon", "Thomas", "Victor"
+    ],
+    
+    "Gentile": 
+    [
+        "Alderic", "Allen", "Alphonse", "Antoine", "Baxter", 
+        "Benjamin", "Berkley", "Bruce", "Carlin", "Carter", 
+        "Cecil", "Cedric", "Clark", "Cody", "Cullent", 
+        "Dale", "Damien", "Damon", "Daniel", "Darius", 
+        "Dominick", "Douglas", "Edgar", "Edmond", "Edward",  
+        "Elliot", "Elon", "Emmett", "Ethan", "Everett", 
+        "Felix", "Francis", "Gideon", "Graham", 
+        "Grayson", "Harrison", "Jasper", "Julian", "Lance", 
+        "Lawrence", "Leonard", "Louis", "Lucien", "Maximilian", 
+        "Nathan", 
+        "Oscar", "Patrick", 
+        "Theodore", "Valerian"
+    ],
+    
+    "Commoner": 
+    [
+        "Alvin", "Anthony", "Austin",
+        "Barry", "Brandon", "Brendan", "Brent", "Brian", 
+        "Caleb", "Cameron", "Carl", "Corey", "Curtis", 
+        "Darren", "David", "Dennis", "Eugene", "Felix", 
+        "Francklin", "Frazer", "Frederick", "Garfield", "George", 
+        "Gustave", "Gunther", "Harrison", "Harvey", "Henry", 
+        "Hermann", "Hersch", "Hugh", "Hugo", "Hunter", 
+        "Isaac", "Jackson", "Jacob", "Jaime", "Jonathan", 
+        "Kendrick", "Luke",  "Malcolm", "Mattew", "Nathan",
+        "Michael", "Nicholas", "Oliver", "Omer", "Owen",
+        "Patrick", "Quentin", "Quincy", "Raphael", "Raymond", 
+        "Reuben", "Robert", "Ryan",
+        "Samuel", "Sean", 
+        "Tobias", "William", "Zachary"
+    ],
+    
+    "Vagrant": 
+    [
+        "Billy", "Bob", "Brad", "Broddy", "Brock", 
+        "Buster", "Bryant", "Cameron", "Casey", "Chad", 
+        "Chase", "Chris", "Craig", 
+        "Dan", "Derek", "Derrick", "Dick", "Doug", 
+        "Dustin", "Eddie", "Evan", "Fabio",
+        "Frank", "Fred", "Gabe", "Garreth", "Gary", 
+        "Gavin", "Greg", "Gunner", "Hank", "Herbert", "Ian",
+        "Jake", "Jeff", "Remi", 
+        "Sammy", 
+        "Tom"
+    ]   
+}
