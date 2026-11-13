@@ -3,28 +3,43 @@
     [
        
        "Adeleine", "Alanna", "Alethea", "Alexandria", "Amelia", 
-       "Bianka", 
+       "Anastasia", "Bianka", 
        "Camelia", "Celeste", "Celia", "Dulcine", "Eleanor", 
-       "Elissabeth", "Evaine", "Fiona", "Francesca", "Genevieve", 
+       "Elissabeth", "Evaine", "Fallon", "Fiona", "Francesca", 
+       "Genevieve", 
        "Isadora", "Isolde", "Laureline", "Lavinia", "Maude",
        "Octavia", "Ophelia", "Orelia", "Rosalind",
        "Seraphina"
+
     ],  
 
     "Gentile":
     [
        
-       "Adrienne", "Alexine", "Alfie", "Blanche", "Brandy", 
-       "Bryna", 
-       "Cathleen", "Cecilia", "Celine", "Claire", "Daniele", 
-       "Devonne","Doreen", "Eliza", "Elly", "Eloise", 
-       "Emmeline", "Estelle", "Felicity", "Fiona", "Fleur", 
-       "Florance", "Geneva", "Georgia", "Heidi", "Henrietta", 
-       "Hermione", "Irina", "Janel", "Joanna", "Kamila", 
-       "Lenora", "Liana", "Lilliana", "Loraine", "Lucinda", 
-       "Margot", "Meghan", "Melanie", "Nicolle", "Olwen", 
-       "Roselia", "Silvie", "Stella", "Valentina", "Victoria", 
-       "Vivienne"
+       "Adrienne", "Agnes", "Alexandra", "Alexine", "Alfie", 
+       "Alice", "Amelie", "Annette", "Annissa", "Antonia", 
+       "Arabella", "Augusta", "Beatrice", "Bernadette", "Blanche", 
+       "Brandy", "Bryna", "Caroline", "Catherine", "Cathleen", 
+       "Cecilia", "Celia", "Celine", "Charlotte", "Clarice",
+       "Claire", "Corinne", "Daniele", "Daphne", "Deborah", 
+       "Dianna", "Devonne", "Doreen", "Edith", "Edna", 
+       "Eleanor", "Eliza", "Ellen", "Elly", "Eloise", 
+       "Emilia", "Emmeline", "Estelle", "Esther", "Eugenie", 
+       "Evelyn", "Felicity", "Fiona", "Fleur", "Florence", 
+       "Frances", "Gabrielle", "Geneva", "Georgia", "Grace", 
+       "Harriet", "Heidi", "Henrietta", "Hermione", "Hilda", 
+       "Ida", "Irene", "Irina", "Isabel", "Janel", 
+       "Joanna", "Josephine", "Judith", "Julia", "Justine", 
+       "Kamila", "Karol", "Lenora", "Leonie", "Liana", 
+       "Lilliana", "Loraine", "Louise", "Lucille", "Lucinda", 
+       "Lydia", "Madeline", "Margaret", "Margot", "Marguerite", 
+       "Maria", "Marianne", "Martha", "Matilda", "Meghan", 
+       "Melanie", "Miriam", "Muriel", "Nicolle", "Nora", 
+       "Olive", "Olwen", "Pauline", "Priscilla", "Roselia", 
+       "Silvie", "Stella", "Valentina", "Vanessa", "Veronika", 
+       "Victoria", "Violet", "Vivienne", "Xena", "Yolande", 
+       "Yvette"
+
     ],
 
     "Commoner":
@@ -71,6 +86,7 @@
         "Nora", "Olivia", "Patricia", "Paula", "Penelope", 
         "Quinn", "Raven", "Riley", "Shirley", "Sibby", 
         "Vera", "Wendy", "Wilow", "Winnie", "Zoe"
+
 
     ]
 }

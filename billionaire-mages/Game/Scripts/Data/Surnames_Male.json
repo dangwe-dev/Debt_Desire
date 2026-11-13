@@ -1,50 +1,92 @@
 {
     "Oligarch": 
-    [
+    [ 
+
        "Alexander", "Alfred", "Alister", "Ansel", "Archibald", 
        "Arthur", "Augustus", "Aurelien", "Benedict", 
        "Blake","Charles", "Clement", "Constantine", "Cornelius", 
        "Ebeneser", "Frederick", "Geoffrey", "Jacques", 
-       "James", "Kylian", "Marcus", "Percival",
-       "Phillip", "Pierre", "Richard", "Simon", "Thomas", "Victor"
+       "James", "Kylian", "Marcus", "Nathaniel", "Percival",
+       "Phillip", "Pierre", "Richard", "Salomon", "Simon", "Thomas", "Victor"
+
     ],
     
     "Gentile": 
     [
-        "Alderic", "Allen", "Alphonse", "Antoine", "Baxter", 
-        "Benjamin", "Berkley", "Bruce", "Carlin", "Carter", 
-        "Cecil", "Cedric", "Clark", "Cody", "Cullent", 
-        "Dale", "Damien", "Damon", "Daniel", "Darius", 
-        "Dominick", "Douglas", "Edgar", "Edmond", "Edward",  
-        "Elliot", "Elon", "Emmett", "Ethan", "Everett", 
-        "Felix", "Francis", "Gideon", "Graham", 
-        "Grayson", "Harrison", "Jasper", "Julian", "Lance", 
-        "Lawrence", "Leonard", "Louis", "Lucien", "Maximilian", 
-        "Nathan", 
-        "Oscar", "Patrick", 
-        "Theodore", "Valerian"
+        
+        "Abraham", "Alderic", "Alphonse", "Ambrose", "Andrew",  
+        "Archibald", "Arnold", "Arthur", "Baxter", "Benjamin", 
+        "Berkley", "Bernard", "Bertrand", "Bradford", "Byron", 
+        "Bruce", "Carlin", "Carter", "Caspar", "Cecil", 
+        "Cedric", "Charles", "Christian", "Clark", "Claude", 
+        "Clement", "Cody", "Conrad", "Cornelius", "Cullent",
+        "Curtis", "Cyril",  "Dale", "Damien", "Damon", 
+        "Daniel", "Darius", "Desmond", "Dominick", "Douglas", 
+        "Edgar", "Edmond", "Edward", "Edwin", "Elias", 
+        "Elliot", "Elon", "Emmanuel", "Emmett", "Ethan", 
+        "Ernest", "Etienne", "Eustace", "Everett", "Felix", 
+        "Francis", "Gerard", "Gideon", "Graham", "Grayson", 
+        "Gregory", "Harrison", "Humphrey", "Irving", "Jean",
+        "Jasper", "Jerome", "Josiah", "Julian", "Julius", 
+        "Kenneth", "Lance", "Lawrence", "Leonard", "Lionel", 
+        "Lloyd", "Louis", "Lucien", "Lucius", "Marcel", 
+        "Martin", "Maurice", "Maximilian", "Miles", "Montgomery",
+        "Morris", "Nathan", "Neville", "Nigel", "Orren", 
+        "Orville", "Osborn", "Oscar", "Oswell", "Otis",
+        "Patrick", "Porter", "Quill", "Quincey", "Ramsey", 
+        "Rudolph", "Rufus", "Rupert", "Russell", "Theodore", 
+        "Valerian", "Van", "Victor", "Vincent", "Walter", 
+        "Warren"
+        
     ],
     
     "Commoner": 
     [
-        "Alvin", "Anthony", "Austin",
-        "Barry", "Brandon", "Brendan", "Brent", "Brian", 
-        "Caleb", "Cameron", "Carl", "Corey", "Curtis", 
-        "Darren", "David", "Dennis", "Eugene", "Felix", 
-        "Francklin", "Frazer", "Frederick", "Garfield", "George", 
-        "Gustave", "Gunther", "Harrison", "Harvey", "Henry", 
-        "Hermann", "Hersch", "Hugh", "Hugo", "Hunter", 
-        "Isaac", "Jackson", "Jacob", "Jaime", "Jonathan", 
-        "Kendrick", "Luke",  "Malcolm", "Mattew", "Nathan",
+        
+        "Aaron", "Abel", "Abraham", "Adam", "Adrian", 
+        "Alan", "Albert", "Alec", "Alexander", "Alfred",
+        "Allen", "Amos", "Andre", "Andrew", "Andy",
+        "Angus", "Ansel", "Alvin", "Anthony", "Antoine", 
+        "Anton", "Archie", "Arnold", "Austin", "Barney",
+        "Barry", "Bart", "Basil", "Ben", "Benjamin", 
+        "Benny", "Bernard", "Bill", "Billy", "Blaine",
+        "Brandon", "Brendan", "Brent", "Brett", "Brian",
+        "Brodie", "Bruce", "Bryan", "Buck", "Bud",
+        "Byron", "Caleb", "Calvin", "Cameron", "Carl", 
+        "Carlton", "Connor", "'Conrad", "Corey", "Cornelius", 
+        "Craig", "Curtis", "Dale", "Dalton", "Damien",
+        "Darren","Darwin", "Daryl", "Dave", "David", 
+        "Dean", "Dennis", "Dereck", "Devin", "Dexter", 
+        "Donald", "Donnie", "Douglas", "Drew", "Duane", 
+        "Duncan", "Earl", "Edgar", "Edmund", "Edward", 
+        "Edwin", "Eli", "Elijah", "Elliot", "Ellis", 
+        "Elmer", "Emile", "Eric", "Ernest", "Ernie", 
+        "Eugene", "Evan", "Everett", "Ezra", "Felix",
+        "Fergus", "Finn", "Francklin", "Franklin", "Frazer", 
+        "Frederick", "Freeman", "Fritz", "Gabriel", "Gale", 
+        "Garfield", "Garland", "Garrett", "Gary", "Gene", 
+        "Geoffrey", "George", "Gerald", "Gilbert", "Glenn",
+        "Gordon", "Grady", "Graham", "Grant", "Gregory",
+        "Gunther", "Gustave", "Hank", "Hans", "Harold", 
+        "Harlan", "Harrison", "Harvey", "Hector", "Henry", 
+        "Hermann", "Hersch", "Howard", "Hubert", "Hudson", 
+        "Hugh", "Hugo", "Hunter", "Ian", "Isaiah", 
+        "Isaac", "Isidore", "Ivan", "Jackson", "Jacob", 
+        "Jaime", "Jared", "Jarvis", "Jason", "Jasper", 
+        "Jay", "Jeffrey", "Jeremiah", "Jesse", "Jim",
+        "Joel", "John", "Jonas", "Joseph", "Jonathan", 
+        "Jude", "Julian", "Justin", "Keith", "Kendrick",
+        "Kenneth", "Luke",  "Malcolm", "Mattew", "Nathan",
         "Michael", "Nicholas", "Oliver", "Omer", "Owen",
         "Patrick", "Quentin", "Quincy", "Raphael", "Raymond", 
-        "Reuben", "Robert", "Ryan",
-        "Samuel", "Sean", 
+        "Reuben", "Robert", "Ryan", "Samuel", "Sean", 
         "Tobias", "William", "Zachary"
+
     ],
     
     "Vagrant": 
     [
+        
         "Billy", "Bob", "Brad", "Broddy", "Brock", 
         "Buster", "Bryant", "Cameron", "Casey", "Chad", 
         "Chase", "Chris", "Craig", 
@@ -55,5 +97,6 @@
         "Jake", "Jeff", "Remi", 
         "Sammy", 
         "Tom"
+
     ]   
 }
