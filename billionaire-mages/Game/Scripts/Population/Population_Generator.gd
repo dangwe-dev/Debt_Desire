@@ -60,7 +60,7 @@ func generate_class_distribution(
 		var highest_remainder: float = -1.0
 		
 		for social_class in remainders:
-			if remainders[social_class] > remainders:
+			if remainders[social_class] > highest_remainder:
 				highest_remainder = remainders[social_class]
 				highest_class = social_class
 				
