@@ -2,6 +2,11 @@ extends RefCounted
 
 class_name Population_Generator
 
+var rng: RandomNumberGenerator = RandomNumberGenerator.new()
+
+func _init() -> void:
+	rng.randomize()
+
 const BASELINE_POPULATION: int = 1000
 
 const Class_Weights: Dictionary = {
@@ -18,6 +23,65 @@ const FAMILY_WEIGHTS: Dictionary = {
 	"Gentile": 0.8929,
 	"Commoner": 0.8810,
 	"Vagrant": 0.8190
+}
+
+const FAMILY_SIZE_PROFILES: Dictionary = {
+	
+	"Oligarch": 
+		{
+			"min_size": 4,
+			"weights":
+				{
+					4: 5, 
+					5: 15,
+					6: 40,
+					7: 30,
+					8: 10
+				}
+		},
+	"Gentile":
+		{
+			"min_size": 4,
+			"weights":
+				{
+					4: 5,
+					5: 15,
+					6: 40,
+					7: 30,
+					8: 10
+				}
+		},
+	"Commoner": 
+		{
+			"min_size": 2,
+			"weights":
+				{
+					2: 15,
+					3: 25,
+					4: 20,
+					5: 15,
+					6: 10,
+					7: 5,
+					8: 4,
+					9: 3,
+					10: 3
+				}
+		},
+	"Vagrant":
+		{
+			"min_size": 2,
+			"weights":
+				{
+					2: 10.3,
+					3: 20.5,
+					4: 20.5,
+					5: 17.9,
+					6: 12.8,
+					7: 10.3,
+					8: 7.7
+					
+				}
+		}
 }
 
 
@@ -93,3 +157,54 @@ func generate_family_demography(class_distribution: Dictionary) -> Dictionary:
 		}
 	
 	return allocation
+
+func generate_famiily_sizes(
+	social_class: String,
+	family_member_count: int
+) -> Array[int]:
+	
+	var family_sizes: Array [int] = []
+	
+	# Validate the requested social class.
+	
+	if not FAMILY_SIZE_PROFILES.has(social_class):
+		push_error("Unkown Social Class: " + social_class)
+		return family_sizes
+		
+	var profile: Dictionary = FAMILY_SIZE_PROFILES[social_class]
+	var minimum_size: int = profile["min_size"]
+	var size_weights: Dictionary = profile["weights"]
+	
+	# No family can be generated below the class minimum.
+	if family_member_count < minimum_size:
+		if family_member_count > 0:
+			push_error(
+				"Insufficient family members for " + social_class
+			)
+			
+	return family_sizes
+	
+	var remaining_members: int = family_member_count
+	
+	while remaining_members > 0:
+		
+		var candidate_sizes: Array[int] = []
+		var candidate_weights: PackedFloat32Array = PackedFloat32Array()
+		
+		# Only consider family sizes that leave a valid remainder.
+		for family_size in size_weights:
+			
+			var remainder: int = remaining_members - family_size
+			
+			if remainder == 0 or remainder >= minimum_size:
+				candidate_sizes.append(family_size)
+				candidate_weights.append(float(size_weights[family_size]))
+				
+	# Select one of the feasible sizes using weighted randomness.
+		var selected_index: int = rng.rand_weighted(candidate_weights)
+		var selected_size: int = candidate_sizes[selected_index]
+		
+		family_sizes.append(selected_size)
+		remaining_members -= selected_size
+	
+	return family_sizes
