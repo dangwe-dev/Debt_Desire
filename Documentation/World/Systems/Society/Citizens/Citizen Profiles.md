@@ -20,16 +20,22 @@ Age does have some weight in Debt & Desire. It influences the probability of inc
 
 # Wallet
 
-## Assets
+## <span style="color:rgb(70, 100, 255)">Assets</span>
 
+What the character owns.
+Within the game's scope assets can be net positive or negative so liabilities remain listed as assets.
 
+## <span style="color:rgb(100, 255, 10)">Income</span>
 
-## Incomes
+Income is the factor increasing your funds
 
+## <span style="color:rgb(255, 100, 50)">Debt</span>
 
+Debt is the factor decreasing your funds
 
-## Debt
+## <span style="color:rgb(50, 255, 150)">Funds</span> 
 
+Funds are the difference between income and debt. in the game, income and debt are dynamic values constantly updating themselves. So available funds constantly fluctuate.
 
 
 
@@ -37,13 +43,19 @@ Age does have some weight in Debt & Desire. It influences the probability of inc
 
 ## Status
 
+The status given to a citizen depends on social class.
+The four social classes are:
 
+<span style="color:rgb(255, 50, 255)">[Oligarchs, Gentry, Middle Class, Underclass].</span>
+
+This translates to:
+<span style="color:rgb(255, 50, 255)">[Oligarch, Gentiles, Commoners, Vagrants].</span>
 
 
 
 ## Title
 
 
-Titles are held by every citizens 
+Titles are held by every citizens and are available through  status. Meaning status prevents a citizen from acquiring a title outside of the statuse's scope.
 
 

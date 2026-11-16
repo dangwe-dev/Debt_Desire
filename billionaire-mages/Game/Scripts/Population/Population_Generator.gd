@@ -158,7 +158,7 @@ func generate_family_demography(class_distribution: Dictionary) -> Dictionary:
 	
 	return allocation
 
-func generate_famiily_sizes(
+func generate_family_sizes(
 	social_class: String,
 	family_member_count: int
 ) -> Array[int]:
