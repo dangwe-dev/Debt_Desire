@@ -318,6 +318,6 @@ func generate_families(
 			while pool.has(selected_surname):
 				pool.erase(selected_surname)
 				
-			available_surnames[pool_class] = pool_class
+			available_surnames[pool_class] = pool
 			
 	return families
