@@ -1,35 +1,68 @@
 {
     "Oligarch": 
     [
-        "Ashford", "Augustus","Beaumont", "Beaulieu", "Campbell", 
-        "Carrington", "Colby", "Donnelly", "Durand", "Lannister", 
-        "Laurent", "Lemoine", "Livingstone", "Montclair", "Monte_Cristo", 
-        "Montgomery", "Rothwell", "Rousseau"
+        
+        "Aldridge", "Ambrosia", "Ashford", "Augustus", "Beaulieu", 
+        "Beaumont", "Beverleigh", "Blackwood", "Bloomberg", "Borgia",
+        "Campbell", "Carrington", "Colby", "Cunningham", "Desjardin", 
+        "Donnelly", "Durand", "Hartman", "Henderson", "Holloway", 
+        "Lannister", "Laurent", "Lemoine", "Livingstone", "Montclair", 
+        "Monte_Cristo", "Montgomery", "Overton", "Pearson", "Reed", 
+        "Ripley", "Rothwell", "Rousseau", "Roy", "Sinclair", 
+        "Sullivan", "Summerfield", "Windsor", "Winslow", "Vespera"
+
     ],
 
     "Gentile":
     [
-        "Anders", "Armstrong", "Barnes", "Graham", "Hamilton", 
-        "Harris", "Lafortune", "Lafleur", 
-        "Mason", "Morgan", 
-        "Powell", "Sullivan", "Tudor"
+
+        "Anders", "Armstrong", "Barnes", "Cavendish", "Channing", 
+        "Charron", "Delacroix", "Ellington", "Fairchild", "Fairfax",
+        "Fenwick", "Fitzalan", "Gauthier", "Graham", "Hamilton", 
+        "Harris", "Lafortune", "Lafleur", "Langford", "Lavigne",
+        "Leclair", "Lockwood", "Mason", "Merriweather", "Morgan",
+        "Pembroke", "Pritchard", "Redmond", "Sinclair", "St_Clair",
+        "Powell", "Sullivan", "Tudor", "Vanderbilt", "Wainwright",
+        "Wellington", "Wetherby", "Whitmore", "Winslow", "Yorke"
+
     ],
 
     "Commoner":
     [
-        "Adams", "Baker", "Bishop", "Burns", "Brown", "Carter", 
-        "Dupuis", "Green", "Griffin", "Hall", "Hearth", 
-        "Hill", "Hughes", "Johnson", "Miller", "Nelson", 
-        "Roberts", "Sanders", "Simmons", "Smith", "Stewart", 
-        "Williams", "Phillips", "White", "Young"
+       
+        "Adams", "Abott", "Baker", "Bishop", "Boucher", 
+        "Bradley", "Brewer", "Briggs", "Brooks", "Brown",
+        "Burns", "Cameron", "Carter", "Chapman", "Clarke", 
+        "Cooper", "Dalton", "Davidson", "Dawson", "Dean", 
+        "Deschamps", "Dixon", "Dupuis", "Edwards", "Ellis", 
+        "Emerson", "Foster", "Fowler", "Fraser", "Fuller", 
+        "Gagnon", "Gardner", "Gilbert", "Gordon", "Grant", 
+        "Gray", "Green", "Griffin", "Hall", "Hearth", 
+        "Hill", "Hughes", "Irving", "James", "Johnson", 
+        "Keller", "Kennedy", "Kent", "King", "Lambert",
+        "Lawrence", "LeBlanc", "Little", "Lowe", "MacDonald",
+        "Marshall","Miller", "Nelson", "Nichols", "Nolan", 
+        "Oliver", "Ouellet", "Page", "Phillips", "Price", 
+        "Quill", "Roberts", "Robinson", "Sanders", "Simmons", 
+        "Smith", "Stewart", "Thompson", "Turner", "Walker", 
+        "Ward", "Williams", "White", "Wright","Young"
+
     ],
 
     "Vagrant":
     [
-        "Baker", "Bennett", "Clark", "Davis", "Evans", 
-        "Fisher", "Garcia", "Harris", "Jackson",
-        "Lewis", "Moore", "Parker", 
-        "Robinson", "Scott", "Walker"
+        
+        "Allen", "Arnold", "Baker", "Bennett", "Boyd", 
+        "Burke", "Carver", "Chambers","Clark", "Cole", 
+        "Conway", "Cross", "Curry", "Davis", "Dunn", 
+        "Evans", "Fisher", "Flynn", "Ford", "Gallagher", 
+        "Garcia", "Gibbons","Harris", "Hayes", "Holland", 
+        "Holt", "Ingram", "Jackson", "Kelley", "Lane",
+        "Lewis", "McBride", "McCarthy", "Moore", "Nash", 
+        "Newman", "O'Brien", "O'Connell", "Owens","Parker", 
+        "Reid", "Robinson","Scott", "Shaw", "Sweeney", 
+        "Tate", "Walker", "Webb", "Wolfe", "Yates"
+
     ]
 }
 

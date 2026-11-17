@@ -182,7 +182,7 @@ func generate_family_sizes(
 				"Insufficient family members for " + social_class
 			)
 			
-	return family_sizes
+		return family_sizes
 	
 	var remaining_members: int = family_member_count
 	
