@@ -157,7 +157,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -322,10 +322,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "cfa850847a5d0463",
+  "active": "ad71c1c6e7c429e2",
   "lastOpenFiles": [
-    "World/Systems/Society/Citizens/Citizen Profiles.md",
     "World/Systems/Society/Citizens/Behavior.md",
+    "World/Systems/Society/Citizens/Citizen Profiles.md",
     "World/Systems/Society/Citizens/Relationships.md",
     "World/Systems/Society/Hierarchy/Social Class.md",
     "World/Systems/Society/Demography/Estate Generation.md",
