@@ -23,6 +23,11 @@ func generate_family_population(
 		push_error("Baseline population must be greater than zero.")
 		return{}
 	
+	var demography = PopulationDemography.new()
+	var family_generator = FamilyGenerator.new()
+	var data_loader = PopulationData.new()
+	
+	
 	#Generate social-class distribution
 	var class_distribution: Dictionary = (
 		demography.generate_class_distribution(baseline_population)
@@ -33,13 +38,13 @@ func generate_family_population(
 		
 	#Allocate family members and solitary citizens
 	var family_demography: Dictionary = (
-		generate_family_demography(class_distribution)
+		demography.generate_family_demography(class_distribution)
 	)
 	if family_demography.is_empty():
 		return{}
 	
 	#Load Surname Data
-	var data_loader = PopulationData.new()
+	
 	var available_surnames: Dictionary = (
 		data_loader.load_surnames()
 	)
@@ -57,7 +62,7 @@ func generate_family_population(
 	var total_solitary_citizens: int = 0
 	
 	#Generate family class by class
-	for social_class in Class_Weights:
+	for social_class in class_distribution:
 		
 		var class_data: Dictionary = (
 			family_demography[social_class]
@@ -73,7 +78,7 @@ func generate_family_population(
 		
 		total_solitary_citizens += solitary_count
 		
-		var family_sizes: Array[int] = generate_family_sizes(
+		var family_sizes: Array[int] = demography.generate_family_sizes(
 			social_class,
 			requested_members
 		)
@@ -93,7 +98,7 @@ func generate_family_population(
 		family_sizes_by_class[social_class] = family_sizes
 		
 		var generated_families: Array[Dictionary] = (
-			generate_families(
+			family_generator.generate_families(
 				social_class,
 				family_sizes,
 				available_surnames,

@@ -1,5 +1,11 @@
+extends RefCounted
+
+class_name  FamilyGenerator
 
 
+const PopulationDemography = preload(
+	"res://Game/Scripts/Population/Population_Demography.gd"
+)
 
 
 func generate_families(
@@ -13,7 +19,7 @@ func generate_families(
 	var families: Array[Dictionary] = []
 	
 	#Validate the social class
-	if not FAMILY_SIZE_PROFILES.has(social_class):
+	if not PopulationDemography.FAMILY_SIZE_PROFILES.has(social_class):
 		push_error("Unknown Social Class: " + social_class)
 		return families
 		
@@ -31,7 +37,7 @@ func generate_families(
 	
 	#Validate all requested family sizes before making changes.
 	
-	var profile: Dictionary = FAMILY_SIZE_PROFILES[social_class]
+	var profile: Dictionary = (PopulationDemography.FAMILY_SIZE_PROFILES[social_class])
 	var allowed_sizes: Dictionary = profile["weights"]
 	
 	for family_size in family_sizes:
