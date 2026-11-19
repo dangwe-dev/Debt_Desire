@@ -125,60 +125,60 @@ func load_surnames() -> Dictionary:
 	
 func load_first_names() -> Dictionary:
 		
-		var first_names: Dictionary = {
-			"male": {},
-			"female": {}
+	var first_names: Dictionary = {
+		"male": {},
+		"female": {}
 		}
 		
-		var file_paths: Dictionary = {
-			"male": FIRST_NAMES_MALE_PATH,
-			"female": FIRST_NAMES_FEMALE_PATH
+	var file_paths: Dictionary = {
+		"male": FIRST_NAMES_MALE_PATH,
+		"female": FIRST_NAMES_FEMALE_PATH
 		}
 		
-		for sex in EXPECTED_SEXES:
+	for sex in EXPECTED_SEXES:
 		
-			var file_path: String = file_paths[sex]
-			
-			if not FileAccess.file_exists(file_path):
-				push_error(
-					"First names file not found: " + file_path
-				)
-				return{}
-			
-			var file := FileAccess.open(
-				file_path,
-				FileAccess.READ
+		var file_path: String = file_paths[sex]
+		
+		if not FileAccess.file_exists(file_path):
+			push_error(
+				"First names file not found: " + file_path
 			)
-			
-			if file == null:
-				push_error(
-				"Unable to open first names file: " + file_path
-				)
-				return{}
+			return{}
 		
-			var json_text: String = file.get_as_text()
-			file.close()
+		var file := FileAccess.open(
+			file_path,
+			FileAccess.READ
+		)
+		
+		if file == null:
+			push_error(
+			"Unable to open first names file: " + file_path
+			)
+			return{}
 	
-			var json := JSON.new()
-			var parse_result: Error = json.parse(json_text)
+		var json_text: String = file.get_as_text()
+		file.close()
+
+		var json := JSON.new()
+		var parse_result: Error = json.parse(json_text)
 	
-			if parse_result != OK:
-				push_error(
-					"First names JSON parsing failed at line: "
-					+ str(json.get_error_line())
-					+ ": "
-					+ json.get_error_message()
-				)
-				return{}
+		if parse_result != OK:
+			push_error(
+				"First names JSON parsing failed at line: "
+				+ str(json.get_error_line())
+				+ ": "
+				+ json.get_error_message()
+			)
+			return{}
 		
 		var data: Variant = json.data
 	
-		if typeof(data) != TYPE_DICTIONNARY:
-			push_error(
-				"First names JSON must contain a Dictionnary: "
-				+ sex
-			)
-			return{}
+	if typeof(data) != TYPE_DICTIONNARY:
+		push_error(
+			"First names JSON must contain a Dictionnary: "
+			+ sex
+		)
+		return{}
 		
 		for social_class in EXPECTED_CLASSES:
 		
@@ -186,8 +186,8 @@ func load_first_names() -> Dictionary:
 				push_error(
 					"Missing first name pool: "
 					+ sex + " / " + social_class
-			)
-			return{}
+				)
+				return{}
 			
 			if typeof(data[social_class]) != TYPE_ARRAY:
 				push_error(
@@ -196,8 +196,8 @@ func load_first_names() -> Dictionary:
 			)
 			return{}
 			
-		var name_pool: Array = data[social_class]
-		var seen_names: Dictionary = {}
+			var name_pool: Array = data[social_class]
+			var seen_names: Dictionary = {}
 				
 		for name_value in name_pool:
 			
