@@ -1,14 +1,14 @@
 
 extends SceneTree
 
-const PopulationGenerator = preload(
-	"res://Game/Scripts/Population/Population_Generator.gd"
+const PopulationDemography = preload(
+    "res://Game/Scripts/Population/Population_Demography.gd"
 )
 
 func _initialize() -> void:
 
-	var generator = PopulationGenerator.new()
-	var profiles: Dictionary = PopulationGenerator.FAMILY_SIZE_PROFILES
+	var demography = PopulationDemography.new()
+	var profiles: Dictionary = PopulationDemography.FAMILY_SIZE_PROFILES
 
 	var tests_passed: int = 0
 	var tests_failed: int = 0
@@ -25,7 +25,7 @@ func _initialize() -> void:
 			# Repeat each test to exercise random outcomes.
 			for trial in range(5):
 
-				var sizes: Array[int] = generator.generate_family_sizes(
+				var sizes: Array[int] = demography.generate_family_sizes(
 					social_class,
 					member_count
 				)

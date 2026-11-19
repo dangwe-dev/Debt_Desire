@@ -13,10 +13,11 @@ const PopulationDemography = preload(
 const FamilyGenerator = preload(
 	"res://Game/Scripts/Population/Family_Generator.gd"
 	)
+const baseline_population: int = PopulationDemography.BASELINE_POPULATION
+
 
 func generate_family_population(
-	baseline_population: int = BASELINE_POPULATION
-) -> Dictionary:
+	) -> Dictionary:
 	
 	#Validate reqwuested population
 	if baseline_population <= 0:

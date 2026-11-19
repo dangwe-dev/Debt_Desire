@@ -7,6 +7,9 @@ const PopulationDemography = preload(
 	"res://Game/Scripts/Population/Population_Demography.gd"
 )
 
+var rng: RandomNumberGenerator = RandomNumberGenerator.new()
+func _init() -> void:
+	rng.randomize()
 
 func generate_families(
 	social_class: String,
