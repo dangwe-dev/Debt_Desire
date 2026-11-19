@@ -134,12 +134,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "World/Systems/Society/Demography/Population Composition.md",
+                "file": "World/Systems/Society/Hierarchy/Status & Titles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Population Composition"
+              "title": "Status & Titles"
             }
           },
           {
@@ -324,13 +324,13 @@
   },
   "active": "ad71c1c6e7c429e2",
   "lastOpenFiles": [
+    "World/Systems/Society/Hierarchy/Social Class.md",
+    "World/Systems/Society/Demography/Population Composition.md",
     "World/Systems/Society/Citizens/Behavior.md",
     "World/Systems/Society/Citizens/Citizen Profiles.md",
     "World/Systems/Society/Citizens/Relationships.md",
-    "World/Systems/Society/Hierarchy/Social Class.md",
     "World/Systems/Society/Demography/Estate Generation.md",
     "World/Systems/Society/Demography/Community Profiles.md",
-    "World/Systems/Society/Demography/Population Composition.md",
     "World/Systems/Economy/Production/Industry/Functions of Industry.md",
     "World/Systems/Society/Hierarchy/Status & Titles.md",
     "World/Systems/Economy/Production/Industry/Industry List.md",

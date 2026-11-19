@@ -23,7 +23,7 @@ Allocate family surnames by using the pool of available surnames per class to na
 - Generate individual profiles within the families.
 - Allocate 2 family authorities. 1 male, 1 female. 
 - Determine the utmost family authority through a 7/10 weight for males and 3/10 weight for females.
-- For oligarchs assign the title to the utmost family authority.
+- For Aristocrats assign the title to the utmost family authority.
 
 ## 6.Generate Solitary Citizens
 

@@ -46,10 +46,10 @@ Funds are the difference between income and debt. in the game, income and debt a
 The status given to a citizen depends on social class.
 The four social classes are:
 
-<span style="color:rgb(255, 50, 255)">[Oligarchs, Gentry, Middle Class, Underclass].</span>
+<span style="color:rgb(255, 50, 255)">[Aristocrats, Gentry, Middle Class, Underclass].</span>
 
 This translates to:
-<span style="color:rgb(255, 50, 255)">[Oligarch, Gentiles, Commoners, Vagrants].</span>
+<span style="color:rgb(255, 50, 255)">[Aristocrat, Gentiles, Commoners, Vagrants].</span>
 
 
 

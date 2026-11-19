@@ -4,7 +4,7 @@ Titles on the other hand, grant different powers and defines behavior.
 Middle class titles are infinite but there is a finite number of upper class, and underclass titles. This mechanic ensures the game balances itself. I
 f the economy is the heart of the game, titles are its blood.
 
-In addition to being a element allowing the player to predict behavior, titles are responsible for how many businesses exist. The economy of Victoria is driven by the production of its estates. Estates, can only be held by oligarchic title holders. This means the finite number of titles for Oligarchs allows the system to create a finite number of estates to be managed by these upper-class men. Then the lands belonging to the state are occupied by the factories who are mostly owned by gentry folk. The amount of estates influences the amount of factories. (Factories are supplied by estates so there is a limit to how many customers an estate can handle due to its production output).
+In addition to being a element allowing the player to predict behavior, titles are responsible for how many businesses exist. The economy of Victoria is driven by the production of its estates. Estates, can only be held by Aristocratic title holders. This means the finite number of titles for Aristocrats allows the system to create a finite number of estates to be managed by these upper-class men. Then the lands belonging to the state are occupied by the factories who are mostly owned by gentry folk. The amount of estates influences the amount of factories. (Factories are supplied by estates so there is a limit to how many customers an estate can handle due to its production output).
 
 
 # Status
@@ -12,7 +12,7 @@ In addition to being a element allowing the player to predict behavior, titles a
 **Status translates to social class. Status are simply pointers to social class. The "Social Class.md", describes what the statuses are pointing towards.
 
 
-## Oligarch
+## Aristocrat
 
 ## Gentiles
 
@@ -23,13 +23,13 @@ In addition to being a element allowing the player to predict behavior, titles a
 
 
 
-# <span style="color:rgb(80, 180, 200)">Oligarchic Titles</span>
+# <span style="color:rgb(80, 180, 200)">Aristocratic Titles</span>
 
 
 ## <span style="color:rgb(80, 180, 200)">Financial Imperators</span>
 
 The Financial Imperator title is given to to one of the 6 Syndicate members.
-This title gives the holder the most coveted power in all of Victoria and that is the power to control the lands, the banks, the titles and permits. Financial Imperators are essentially the ultimate rulers of the city. They also bypass the rule of one noble title per family. Making the families they hail from more powerful than a regular Oligarchic family. 
+This title gives the holder the most coveted power in all of Victoria and that is the power to control the lands, the banks, the titles and permits. Financial Imperators are essentially the ultimate rulers of the city. They also bypass the rule of one noble title per family. Making the families they hail from more powerful than a regular Aristocratic family. 
 
 ## <span style="color:rgb(80, 180, 200)">Duke</span>
 
@@ -119,15 +119,15 @@ Beggars, are members of the underclass not partaking in criminal activity. This 
 
 
 
-## Oligarchs
+## Aristocrats
 
 
-The Oligarchic families all hold one aristocratic title that can be inherited by family members. There are 5 titles in total all with a constant ratio of distribution being applied to them.
+The Aristocratic families all hold one aristocratic title that can be inherited by family members. There are 5 titles in total all with a constant ratio of distribution being applied to them.
 
 
 If 1000 citizens
-Then 20 Oligarchic families most likely
-If 20 oligarchic families
+Then 20 Aristocratic families most likely
+If 20 Aristocratic families
 
 - 2 Dukes
 - 3 Marquess

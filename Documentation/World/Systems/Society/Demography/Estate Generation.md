@@ -1,5 +1,5 @@
 
-Estates generation is directly linked to oligarch titles. Except for "Financial Imperators", every oligarchic title equals one estate.
+Estates generation is directly linked to Aristocrat titles. Except for "Financial Imperators", every Aristocratic title equals one estate.
 
 
 ## Title Distribution Probabilities

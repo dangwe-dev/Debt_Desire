@@ -8,7 +8,7 @@ const SURNAMES_PATH: String = (
 )
 
 const EXPECTED_CLASSES: Array[String] = [
-	"Oligarch",
+	"Aristocrat",
 	"Gentile",
 	"Commoner",
 	"Vagrant"

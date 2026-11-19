@@ -16,7 +16,7 @@ Every social metric has a minimum and maximum value representing the potential a
 
 | SOCIAL CLASS | FAMILIES |
 | ------------ | -------- |
-| Oligarchs    | 20       |
+| Aristocrats    | 20       |
 | Gentiles     | 20       |
 | Commoners    | 100      |
 | Vagrants     | 39       |
@@ -25,7 +25,7 @@ Every social metric has a minimum and maximum value representing the potential a
 
 | SOCIAL <br>CLASS | HOUSEHOLDS<br>DISTRIBUTION                                                                                                          | Family<br>MEMBERS | BACHELORS | TOTAL<br>CITIZENS | SOCIAL <br>DISTRIBUTION |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ----------------- | --------- | ----------------- | ----------------------- |
-| Oligarchs        | <span style="color:rgb(100, 200, 200)">- Families: 92.6%</span><br><span style="color:rgb(250, 100, 255)">- Bachelors: 7.4%</span>  | 125               | 10        | 135               | 13.5% Occupancy         |
+| Aristocrats        | <span style="color:rgb(100, 200, 200)">- Families: 92.6%</span><br><span style="color:rgb(250, 100, 255)">- Bachelors: 7.4%</span>  | 125               | 10        | 135               | 13.5% Occupancy         |
 | Gentiles         | <span style="color:rgb(100, 200, 200)">- Families: 89.3%</span><br><span style="color:rgb(250, 100, 255)">- Bachelors: 10.7%</span> | 125               | 15        | 140               | 14% Occupancy           |
 | Commoners        | <span style="color:rgb(100, 200, 200)">- Families: 88.1%</span><br><span style="color:rgb(250, 100, 255)">- Bachelors: 11.9%</span> | 444               | 60        | 504               | 50.4% Occupancy         |
 | Vagrants         | <span style="color:rgb(100, 200, 200)">- Families: 81.9%</span><br><span style="color:rgb(250, 100, 255)">- Bachelors: 18.1%</span> | 181               | 40        | 221               | 22.1%  Occupancy        |
@@ -40,7 +40,7 @@ Every social metric has a minimum and maximum value representing the potential a
 
 | SOCIAL CLASS | FAMILIES |
 | ------------ | -------- |
-| Oligarchs    | 30       |
+| Aristocrats    | 30       |
 | Gentiles     | 30       |
 | Commoners    | 150      |
 | Vagrant      | 58.5     |
@@ -49,7 +49,7 @@ Every social metric has a minimum and maximum value representing the potential a
 
 | SOCIAL <br>CLASS | HOUSEHOLDS<br>DISTRIBUTION                                                                                                          | Family<br>MEMBERS | BACHELORS | TOTAL<br>CITIZENS | SOCIAL <br>DISTRIBUTION |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ----------------- | --------- | ----------------- | ----------------------- |
-| Oligarchs        | <span style="color:rgb(100, 200, 200)">- Families: 92.6%</span><br><span style="color:rgb(250, 100, 255)">- Bachelors: 7.4%</span>  | 187.5             | 15        | 202.5             | 13.5% Occupancy         |
+| Aristocrats        | <span style="color:rgb(100, 200, 200)">- Families: 92.6%</span><br><span style="color:rgb(250, 100, 255)">- Bachelors: 7.4%</span>  | 187.5             | 15        | 202.5             | 13.5% Occupancy         |
 | Gentiles         | <span style="color:rgb(100, 200, 200)">- Families: 89.3%</span><br><span style="color:rgb(250, 100, 255)">- Bachelors: 10.7%</span> | 187.5             | 22.5      | 210               | 14% Occupancy           |
 | Commoners        | <span style="color:rgb(100, 200, 200)">- Families: 88.1%</span><br><span style="color:rgb(250, 100, 255)">- Bachelors: 11.9%</span> | 666               | 90        | 756               | 50.4% Occupancy         |
 | Vagrants         | <span style="color:rgb(100, 200, 200)">- Families: 81.9%</span><br><span style="color:rgb(250, 100, 255)">- Bachelors: 18.1%</span> | 271.5             | 60        | 331.5             | 22.1%  Occupancy        |

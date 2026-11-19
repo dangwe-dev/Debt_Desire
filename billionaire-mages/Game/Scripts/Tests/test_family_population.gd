@@ -15,7 +15,7 @@ func _initialize() -> void:
 	var generator = PopulationGenerator.new()
 
 	var result: Dictionary = (
-		generator.generate_family_member_count()
+		generator.generate_family_population()
 	)
 
 	if result.is_empty():

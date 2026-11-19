@@ -52,7 +52,7 @@ Wet lands are home to minerals and other resources you can find in humid lands.
 
 Biomes refer to the different types of land found on estates. every estate, has 5 active biome slots. Every slot can be occupied by one of the 6 biomes available in the system.
 The distribution process is done by a loop that starts out selecting a random biome and then looping back to select another one until the 5 slots are filled. Each slot selection decreases the likeliness of the next slot getting a different biome. 
-Different oligarchic titles provide average outcomes for lands associated with themselves. 
+Different Aristocratic titles provide average outcomes for lands associated with themselves. 
 Meaning every title carries an average of biome variety. The highest titles are more likely to have 5 different biomes active on their lands and the lowest titles are lucky to get 2. No land can contain all of the 6 biomes. 
 
 As Estates are generated the first biome selected for the estate depends on the variety of biomes active on other estates.

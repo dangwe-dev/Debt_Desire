@@ -3,7 +3,7 @@
 
 The population composition in Victoria follows a suite of average numbers who represent the number of people existing within every community. The city has social classes and different titled individuals as well as varying family dynamics. These averages define what the demography looks like.
 
-# Oligarchs & Gentry/Gentiles
+# Aristocrats & Gentry/Gentiles
 
 
 ## <span style="color:rgb(250, 100, 255)">MINIMUM 4 FAMILY Members</span>  

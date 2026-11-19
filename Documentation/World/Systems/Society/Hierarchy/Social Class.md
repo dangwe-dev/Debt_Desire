@@ -9,9 +9,9 @@ The upper class in Victoria refers to the citizens with the most means. They usu
 The Upper class of Victoria owns all of the House Corporations and most of the Commercial Corporations in the city. This class has total control over the high Institution and the banks. Upper class members can always be found at the city's social club, "The Assembly Locals". 
 To be considered an "Upper class" citizen, you must have a certain amount of income coming in every day. Going below that value will have you lose your standing. Holdings, stock, properties, all of these generate income. Having some is a form of guarantee. Debt, is irrelevant to the social class. You can have more debt that income and still be upper class. The challenge becomes maintaining appearances and avoiding debt collectors.
 
-## Oligarchs
+## Aristocrats
 
-Oligarchs are upper class members with nobility titles. A nobility title in Victoria affects the entire family but they don't give their power to every member of that family. Only the title holder gets to benefit from the privileges. Nevertheless it does give perks and access to every family member without giving them the ability to brandish the power that comes with the title. Oligarchs are the members of Victoria who are the hardest to access and to befriend. They have very low tolerance and very high maintenance. On top of all of that they are snobs. If you don't have the proper attire and accessories, its going to be very hard to engage with an Oligarch.
+Aristocrats are upper class members with nobility titles. A nobility title in Victoria affects the entire family but they don't give their power to every member of that family. Only the title holder gets to benefit from the privileges. Nevertheless it does give perks and access to every family member without giving them the ability to brandish the power that comes with the title. Aristocrats are the members of Victoria who are the hardest to access and to befriend. They have very low tolerance and very high maintenance. On top of all of that they are snobs. If you don't have the proper attire and accessories, its going to be very hard to engage with an Aristocrat.
 
 
 ## The Gentry
