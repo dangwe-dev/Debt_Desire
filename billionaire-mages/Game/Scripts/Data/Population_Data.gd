@@ -8,11 +8,11 @@ const SURNAMES_PATH: String = (
 )
 
 const FIRST_NAMES_MALE_PATH: String = (
-	"res//Game/Scripts/Data/First_Names_Male.json"
+	"res://Game/Scripts/Data/First_Names_Male.json"
 )
 
 const FIRST_NAMES_FEMALE_PATH: String = (
-	"res//Game/Scripts/Data/First_Names_Female.json"
+	"res://Game/Scripts/Data/First_Names_Female.json"
 )
 
 const EXPECTED_SEXES: Array[String] = [
@@ -152,7 +152,7 @@ func load_first_names() -> Dictionary:
 		
 		if file == null:
 			push_error(
-			"Unable to open first names file: " + file_path
+				"Unable to open first names file: " + file_path
 			)
 			return{}
 	
@@ -173,7 +173,7 @@ func load_first_names() -> Dictionary:
 		
 		var data: Variant = json.data
 	
-		if typeof(data) != TYPE_DICTIONNARY:
+		if typeof(data) != TYPE_DICTIONARY:
 			push_error(
 				"First names JSON must contain a Dictionnary: "
 				+ sex
