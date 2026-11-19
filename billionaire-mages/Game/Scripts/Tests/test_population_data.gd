@@ -2,12 +2,10 @@
 extends SceneTree
 
 
-const PopulationData = preload(
-	"res://Game/Scripts/Data/Population_Data.gd"
-)
 
-const PopulationGenerator = preload(
-	"res://Game/Scripts/Population/Population_Generator.gd"
+
+const FamilyGenerator = preload(
+    "res://Game/Scripts/Population/Family_Generator.gd"
 )
 
 
@@ -16,8 +14,8 @@ func _initialize() -> void:
 	var tests_passed: int = 0
 	var tests_failed: int = 0
 
-	var data_loader = PopulationData.new()
-	var generator = PopulationGenerator.new()
+	
+	var family_generator = FamilyGenerator.new()
 
 	var available_surnames: Dictionary = (
 		data_loader.load_surnames()
@@ -71,7 +69,7 @@ func _initialize() -> void:
 		var requested_sizes: Array[int] = [4]
 
 		var generated: Array[Dictionary] = (
-			generator.generate_families(
+			family_generator.generate_families(
 				social_class,
 				requested_sizes,
 				available_surnames,
