@@ -128,12 +128,12 @@ func load_first_names() -> Dictionary:
 	var first_names: Dictionary = {
 		"male": {},
 		"female": {}
-		}
+	}
 		
 	var file_paths: Dictionary = {
 		"male": FIRST_NAMES_MALE_PATH,
 		"female": FIRST_NAMES_FEMALE_PATH
-		}
+	}
 		
 	for sex in EXPECTED_SEXES:
 		
@@ -173,12 +173,12 @@ func load_first_names() -> Dictionary:
 		
 		var data: Variant = json.data
 	
-	if typeof(data) != TYPE_DICTIONNARY:
-		push_error(
-			"First names JSON must contain a Dictionnary: "
-			+ sex
-		)
-		return{}
+		if typeof(data) != TYPE_DICTIONNARY:
+			push_error(
+				"First names JSON must contain a Dictionnary: "
+				+ sex
+			)
+			return{}
 		
 		for social_class in EXPECTED_CLASSES:
 		
@@ -193,29 +193,29 @@ func load_first_names() -> Dictionary:
 				push_error(
 					"Invalid first name pool: "
 					+ sex + " / " + social_class
-			)
-			return{}
+				)
+				return{}
 			
 			var name_pool: Array = data[social_class]
 			var seen_names: Dictionary = {}
 				
-		for name_value in name_pool:
+			for name_value in name_pool:
 			
-			if typeof(name_value) != TYPE_STRING:
+				if typeof(name_value) != TYPE_STRING:
 					push_error(
-					"Non-string first name found in "
-					+ sex + " / " + social_class
+						"Non-string first name found in "
+						+ sex + " / " + social_class
 					)
 					return{}
 				
-			var first_name: String = name_value
+				var first_name: String = name_value
 				
-			if first_name.strip_edges().is_empty():
-				push_error(
-					"Empty first name found in "
-					+ sex + " / " + social_class
-				)
-				return{}
+				if first_name.strip_edges().is_empty():
+					push_error(
+						"Empty first name found in "
+						+ sex + " / " + social_class
+					)
+					return{}
 					
 				var normalized_name: String = (
 					first_name.to_lower()
