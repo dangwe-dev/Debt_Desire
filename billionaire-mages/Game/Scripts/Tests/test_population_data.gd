@@ -1,7 +1,9 @@
 
 extends SceneTree
 
-
+const PopulationData = preload(
+    "res://Game/Scripts/Data/Population_Data.gd"
+)
 
 
 const FamilyGenerator = preload(
@@ -16,6 +18,7 @@ func _initialize() -> void:
 
 	
 	var family_generator = FamilyGenerator.new()
+	var data_loader = PopulationData.new()
 
 	var available_surnames: Dictionary = (
 		data_loader.load_surnames()
