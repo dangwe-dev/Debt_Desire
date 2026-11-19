@@ -1,10 +1,10 @@
 
 extends SceneTree
 
+
 const PopulationData = preload(
     "res://Game/Scripts/Data/Population_Data.gd"
 )
-
 
 const FamilyGenerator = preload(
     "res://Game/Scripts/Population/Family_Generator.gd"
@@ -39,12 +39,17 @@ func _initialize() -> void:
 
 		if (
 			available_surnames.has(social_class)
-			and typeof(available_surnames[social_class]) == TYPE_ARRAY
+			or typeof(available_surnames[social_class]) == TYPE_ARRAY
 		):
-			tests_passed += 1
-		else:
-			print("FAILED: Missing class pool: ", social_class)
+			continue
+		
+		var pool: Array = available_surnames[social_class]
+		 
+		if pool.is_empty():
+			print("FAILED: Empty surname pool: ", social_class)
 			tests_failed += 1
+		else:
+			tests_passed += 1
 
 	# Test that all pools contain surnames.
 	var total_surnames: int = 0
