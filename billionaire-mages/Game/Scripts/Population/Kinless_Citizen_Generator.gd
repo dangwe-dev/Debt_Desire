@@ -42,28 +42,30 @@ func generate_kinless_citizen(
 	for social_class in EXPECTED_CLASSES:
 		
 		var requested_count: int = int(
-			kinless_counts_by_class.get(social_class, 0)
+				kinless_counts_by_class.get(social_class, 0)
 		)
-		
 		if requested_count < 0:
 			push_error(
 				"Kinless citizen count cannot be negative for "
 				+ social_class
 			)
 			return citizens
-		
 		if not available_surnames.has(social_class):
-			push_error("Missing surname pool for " + social_class
-			)
-			return citizens
-			
-		if not first_names.has("male") or not first_names.has("female"):
-			push_error("Missing male or female first-name data.")
+			push_error("Missin surname pool for " + social_class)
 			return citizens
 			
 		for sex in EXPECTED_SEXES:
+		
+			if (
+				not first_names.has(sex)
+				or  typeof(first_names[sex]) != TYPE_DICTIONARY
+			):
+				push_error("Missing or invalid first-name data for " + sex)
+				return citizens
+			
 			if (
 				not first_names[sex].has(social_class)
+				or typeof(first_names[sex][social_class]) != TYPE_ARRAY
 				or first_names[sex][social_class].is_empty()
 			):
 				push_error(
@@ -126,7 +128,7 @@ func generate_kinless_citizen(
 					"Failed to generate kinless citizen in "
 					+ social_class
 				)
-				return[]
+				return []
 				
 			var citizen: Dictionary = {
 				"citizen_id": next_citizen_id,
@@ -175,11 +177,11 @@ func _get_available_surname_count(
 func _select_first_name(
 	sex: String,
 	social_class: String,
-	first_name: Dictionary,
+	first_names: Dictionary,
 	first_name_usage: Dictionary
 ) -> String:
 	
-	var name_pool: Array = first_name[sex][social_class]
+	var name_pool: Array = first_names[sex][social_class]
 	var usage_by_sex: Dictionary = first_name_usage.get(sex, {})
 	
 	var weights: PackedFloat32Array = PackedFloat32Array()
@@ -197,10 +199,10 @@ func _select_first_name(
 	var selected_index: int = rng.rand_weighted(weights)
 	var selected_name: String = name_pool[selected_index]
 	
-	var selected_keys: String = selected_name.strip_edges().to_lower()
+	var selected_key: String = selected_name.strip_edges().to_lower()
 	
-	usage_by_sex[selected_keys] = (
-		int(usage_by_sex.get(selected_keys, 0)) + 1
+	usage_by_sex[selected_key] = (
+		int(usage_by_sex.get(selected_key, 0)) + 1
 	)
 	
 	first_name_usage[sex] = usage_by_sex
@@ -241,18 +243,21 @@ func _select_surname(
 	)
 		
 	var selected_surname: String = candidates[selected_index]
-	var selected_keys: String = selected_surname.strip_edges().is_lower()
+	var selected_key: String = selected_surname.strip_edges().to_lower()
 		
-	used_surnames[selected_keys] = true
+	used_surnames[selected_key] = true
 		
 	for pool_class in available_surnames.keys():
 		
 		var pool: Array = available_surnames[pool_class]
 			
 		for i in range(pool.size() - 1, -1, -1):
-			if pool[i].strip_edges().to_lower() == selected_keys:
+			if (
+				typeof(pool[i]) == TYPE_STRING
+				and pool[i].strip_edges().to_lower() == selected_key
+			):
 				pool.remove_at(i)
 					
 		available_surnames[pool_class] = pool
 			
-	return selected_surnames
+	return selected_surname
