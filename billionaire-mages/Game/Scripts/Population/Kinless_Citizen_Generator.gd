@@ -50,6 +50,7 @@ func generate_kinless_citizen(
 				+ social_class
 			)
 			return citizens
+			
 		if not available_surnames.has(social_class):
 			push_error("Missin surname pool for " + social_class)
 			return citizens
@@ -74,13 +75,11 @@ func generate_kinless_citizen(
 				)
 				return citizens
 				
-		var available_count: int = (
-			_get_available_surname_count(
+		var available_count: int = _get_available_surname_count(
 				social_class,
 				available_surnames,
 				used_surnames
 			)
-		)
 		
 		if available_count < requested_count:
 			push_error(
