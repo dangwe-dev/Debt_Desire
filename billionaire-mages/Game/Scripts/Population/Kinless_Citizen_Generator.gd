@@ -134,7 +134,7 @@ func generate_kinless_citizen(
 				"sex": sex,
 				"first_name": first_name,
 				"surname": surname,
-				"is kinless": true
+				"is_kinless": true
 			}
 			
 			citizens.append(citizen)
@@ -179,10 +179,10 @@ func _select_first_name(
 	first_name_usage: Dictionary
 ) -> String:
 	
-	var name_pool: Array = first_names[sex][social_class]
+	var name_pool: Array = first_name[sex][social_class]
 	var usage_by_sex: Dictionary = first_name_usage.get(sex, {})
 	
-	var weights: PackedFloat32Array = PackedInt32Array()
+	var weights: PackedFloat32Array = PackedFloat32Array()
 	
 	for first_name in name_pool:
 		
@@ -232,27 +232,27 @@ func _select_surname(
 		candidates.append(surname)
 		seen[normalized] = true
 		
-		if candidates.is_empty():
-			return ""
+	if candidates.is_empty():
+		return ""
 		
-		var selected_index: int = rng.randi_range(
-			0,
-			candidates.size() -1
-		)
+	var selected_index: int = rng.randi_range(
+		0,
+		candidates.size() -1
+	)
 		
-		var selected_surname: String = candidates[selected_index]
-		var selected_keys: String = selected_surname.strip_edges().is_lower()
+	var selected_surname: String = candidates[selected_index]
+	var selected_keys: String = selected_surname.strip_edges().is_lower()
 		
-		used_surnames[selected_keys] = true
+	used_surnames[selected_keys] = true
 		
-		for pool_class in available_surnames.keys():
+	for pool_class in available_surnames.keys():
 		
-			var pool: Array = available_surnames[pool_class]
+		var pool: Array = available_surnames[pool_class]
 			
-			for i in range(pool.size() - 1, -1, -1):
-				if pool[i].strip_edges().to_lower() == selected_keys:
-					pool.remove_at(i)
+		for i in range(pool.size() - 1, -1, -1):
+			if pool[i].strip_edges().to_lower() == selected_keys:
+				pool.remove_at(i)
 					
-			available_surnames[pool_class] = pool
+		available_surnames[pool_class] = pool
 			
-		return selected_surnames
+	return selected_surnames
