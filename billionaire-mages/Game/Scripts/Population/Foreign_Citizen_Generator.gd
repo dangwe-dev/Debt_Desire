@@ -1,6 +1,6 @@
 extends RefCounted
 
-class_name Kinless_Citizen_Generator
+class_name Foreign_Citizen_Generator
 
 
 const EXPECTED_CLASSES: Array[String] = [
@@ -21,8 +21,8 @@ func _init() -> void:
 	rng.randomize()
 
 
-func generate_kinless_citizen(
-	kinless_counts_by_class: Dictionary,
+func generate_foreign_citizens(
+	foreign_counts_by_class: Dictionary,
 	first_names: Dictionary,
 	available_surnames: Dictionary,
 	used_surnames: Dictionary,
@@ -42,17 +42,17 @@ func generate_kinless_citizen(
 	for social_class in EXPECTED_CLASSES:
 		
 		var requested_count: int = int(
-				kinless_counts_by_class.get(social_class, 0)
+				foreign_counts_by_class.get(social_class, 0)
 		)
 		if requested_count < 0:
 			push_error(
-				"Kinless citizen count cannot be negative for "
+				"Foreign citizen count cannot be negative for "
 				+ social_class
 			)
 			return citizens
 			
 		if not available_surnames.has(social_class):
-			push_error("Missin surname pool for " + social_class)
+			push_error("Missing surname pool for " + social_class)
 			return citizens
 			
 		for sex in EXPECTED_SEXES:
@@ -83,7 +83,7 @@ func generate_kinless_citizen(
 		
 		if available_count < requested_count:
 			push_error(
-				"Insufficient unique surnames for kinless "
+				"Insufficient unique surnames for foreign "
 				+ social_class
 				+ ". Required: " + str(requested_count)
 				+ ". Available: " + str(available_count)
@@ -95,7 +95,7 @@ func generate_kinless_citizen(
 	for social_class in EXPECTED_CLASSES:
 		
 		var requested_count: int = int(
-			kinless_counts_by_class.get(social_class, 0)
+			foreign_counts_by_class.get(social_class, 0)
 		)
 		
 		for i in range(requested_count):
@@ -124,7 +124,7 @@ func generate_kinless_citizen(
 			
 			if first_name.is_empty() or surname.is_empty():
 				push_error(
-					"Failed to generate kinless citizen in "
+					"Failed to generate foreign citizen in "
 					+ social_class
 				)
 				return []
@@ -135,7 +135,7 @@ func generate_kinless_citizen(
 				"sex": sex,
 				"first_name": first_name,
 				"surname": surname,
-				"is_kinless": true
+				"is_foreign": true
 			}
 			
 			citizens.append(citizen)

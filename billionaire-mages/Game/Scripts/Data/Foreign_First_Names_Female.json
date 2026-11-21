@@ -1,0 +1,47 @@
+{
+    "Aristocrat":
+    [
+        
+        "Aiko", "Amara", "Ambrosia", "Clarissa", "Dulcinea",
+        "Gwenfrewi", "Lilith", "Lorelai", "Odelia", "Yasmine"
+        
+    ],
+
+    "Gentile":
+    [
+        
+        "Amina", "Ayesha", "Daniela", "Dovie", "Elena", 
+        "Farah", "Ines", "Laelia", "Lucienne", "Marisol", 
+        "Meryem", "Priya", "Yuna", "Zendaya", "Zyanya"
+
+    ],
+
+    "commoner":
+    [
+        
+        "Anika", "Aramintha", "Astra", "Ayana", "Ayumi", 
+        "Azalea", "Bianca", "Branwen", "Calista", "Cosette",
+        "Dalia", "Delphine", "Esme", "Esmeralda", "Fatima", 
+        "Galilea", "Guinevere", "Hyejin", "Idony", "Inanna",
+        "Ingrid", "Jia", "Kayla", "Keiko", "Lenore", 
+        "Leilani", "Lilavati", "Lina", "Lyra", "Mariposa", 
+        "Meera", "Mirabel", "Mireille", "Nova", "Odette", 
+        "Olivette", "Paloma", "Persephone", "Phoenix", "Rani", 
+        "Raven", "Rika", "Soleil", "Soraya", "Skye",
+        "Talia", "Valkyrie", "Zahra", "Zia","Zilpah"
+
+    ],
+
+    "Vagrant":
+    [
+        
+        "Amina", "Cleo", "Dovie", "Etta", "Farida", 
+        "Fawn", "Kiko", "Kira", "Lian", "Lola", 
+        "Luz", "Mabel", "Mei", "Mina", "Mireya", 
+        "Momo", "Nami", "Nerea", "Nura", "Rita", 
+        "Salma", "Vera", "Violet", "Wendy", "Wilow", 
+        "Wilma", "Winnie", "Yara", "Yenna", "Yumi",
+        "Zahra", "Zelda", "Zella", "Zoe", "Zoya"
+
+    ]
+}

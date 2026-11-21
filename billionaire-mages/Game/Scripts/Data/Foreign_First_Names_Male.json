@@ -1,0 +1,44 @@
+{
+    "Aristocrat":
+    [
+        "Dastan", "Dariius","Dmitri", "Farid", "Ivan", 
+        "Mikhail", "Nikolai", "Rashid", "Sergei", "Vladimir"
+    ],
+
+    "Gentile":
+    [
+        "Alessandro", "Aurelio", "Emilio", "Giovanni", "Jin", 
+        "Lorenzo", "Marcellus", "Matteo", "Mirio", "Nassim",
+        "Riccardo", "Soren", "Titus", "Tobin", "Yuri"  
+    ],
+
+    "commoner":
+    [
+        
+        "Aarav", "Alejandro", "Amir", "Anwar", "Ashwin", 
+        "Bilal", "Bryson", "Carlos", "Daichi", "Daisuke", 
+        "Dev", "Dontrell", "Diego", "Enrique", "Esteban", 
+        "Felipe", "Gabriel", "Haruto", "Hassan", "Hiro", 
+        "Ibrahim", "Imran", "Javier", "Jorge", "Jun", 
+        "Kaito", "Karim", "Kiran", "Luis", "Manuel", 
+        "Marco", "Miguel", "Min", "Minho", "Nabil", 
+        "Naveen", "Omar", "Pablo", "Pedro", "Rafael", 
+        "Ramon", "Ravi", "Ruben", "Salim", "Satoshi", 
+        "Sora", "Tao", "Tariq", "Vicente", "Wei",  
+        "Yuki", "Zain"
+
+    ],
+
+    "Vagrant":
+    [
+        
+        "Abdul", "Akio", "Aziz", "Bashir", "Beto", 
+        "Davi", "Enzo", "Farouk", "Hector", "Huan", 
+        "Ishan", "Jamal", "Jiro", "Kamal", "Mateus",
+        "Ming", "Mustafa", "Nasir", "Nico", "Osei", 
+        "Paco", "Rafi", "Ramon", "Renato", "Rico", 
+        "Riku", "Ryu", "Salvador", "Sami", "Taro", 
+        "Tenzin",  "Tito", "Tomas", "Yasuo", "Zubair"    
+
+    ]
+}
