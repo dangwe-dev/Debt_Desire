@@ -6,7 +6,7 @@
       {
         "id": "80ebfabfa1c687d1",
         "type": "tabs",
-        "dimension": 46.938775510204074,
+        "dimension": 46.983141082519964,
         "children": [
           {
             "id": "45bfd97ea4678855",
@@ -98,7 +98,7 @@
       {
         "id": "936659d519d44bb0",
         "type": "tabs",
-        "dimension": 53.061224489795926,
+        "dimension": 53.016858917480036,
         "children": [
           {
             "id": "78cbb5ed222024ca",
@@ -322,15 +322,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "ad71c1c6e7c429e2",
+  "active": "456df2cb4423508d",
   "lastOpenFiles": [
+    "World/Systems/Society/Demography/Population Composition.md",
     "World/Systems/Society/Demography/Community Profiles.md",
     "World/Systems/Society/Demography/Estate Generation.md",
     "World/Systems/Society/Hierarchy/Social Class.md",
     "World/WorldBuilding/Victoria.md",
     "World/Systems/Economy/Economy Landscape/Commerce.md",
     "World/Systems/Economy/Economy Landscape/Organizations.md",
-    "World/Systems/Society/Demography/Population Composition.md",
     "World/Systems/Society/Hierarchy/Status & Titles.md",
     "World/Systems/Society/Citizens/Behavior.md",
     "World/Systems/Society/Citizens/Citizen Profiles.md",

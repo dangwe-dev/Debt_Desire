@@ -1,0 +1,29 @@
+{
+    "Aristocrat":
+    [
+        "Ackerman", "Jaeger", "Romanoff", "Tempest", "Vanderbilt", 
+        "Vesper"
+    ],
+
+    "Gentile":
+    [
+        "Amadeo","Borromeo","Friedrich", "Hildegard", "Olivieri"
+         
+    ],
+
+    "Commoner":
+    [
+        "Annora", "Buffet", "Carmichael", "Commeaux", "Couture", 
+        "Desilet", "Dubois", "Geller", "Genest", "Gold", 
+        "Lamy", "Marcoux", "Pellegrino", "Purcell", "Reese", 
+        "Roseberry","Rossi", "Sigrid", "Soucy", "Strong", 
+        "Vaillant", "Westbrook", "Zavattari", "Ziegler"
+    ],
+
+    "Vagrant":
+    [
+        "Blackwood", "Blade", "Crow", "Darkshine", "Frost", 
+        "Iron", "Raven", "Rivers", "Sand", "Snow", 
+        "Storm", "Windwalker", "Wolf"
+    ]
+}
