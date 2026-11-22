@@ -4,7 +4,7 @@ class_name Population_Data
 
 
 const SURNAMES_PATH: String = (
-	"res://Game/Scripts/Data/Surnames.json"
+	"res://Game/Scripts/Data/Local_Surnames.json"
 )
 
 const FIRST_NAMES_MALE_PATH: String = (

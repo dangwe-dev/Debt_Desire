@@ -8,10 +8,12 @@ const PopulationDemography = preload(
 )
 
 var rng: RandomNumberGenerator = RandomNumberGenerator.new()
+
 func _init() -> void:
 	rng.randomize()
 
 func generate_families(
+	origin: String,
 	social_class: String,
 	family_sizes: Array[int],
 	available_surnames: Dictionary,
@@ -22,12 +24,28 @@ func generate_families(
 	var families: Array[Dictionary] = []
 	
 	#Validate the social class
-	if not PopulationDemography.FAMILY_SIZE_PROFILES.has(social_class):
-		push_error("Unknown Social Class: " + social_class)
+	if not PopulationDemography.FAMILY_SIZE_PROFILES.has(origin):
+		push_error("Unknown Origin: " + origin)
+		return families
+		
+	var origin_profiles: Dictionary = (
+		PopulationDemography.FAMILY_SIZE_PROFILES[origin]
+	)
+		
+	if not origin_profiles.has(social_class):
+		push_error(
+			"Unknown social class for " + origin + ": " + social_class
+		)
 		return families
 		
 	if not available_surnames.has(social_class):
-		push_error("Missing surname pool for " + social_class)
+		push_error(
+			"Missing surname pool for " + origin + " " + social_class
+		)
+		return families
+	
+	if typeof(available_surnames[social_class]) != TYPE_ARRAY:
+		push_error("Surname pool must be an Array.")
 		return families
 		
 	if starting_family_id < 0:
@@ -40,13 +58,14 @@ func generate_families(
 	
 	#Validate all requested family sizes before making changes.
 	
-	var profile: Dictionary = (PopulationDemography.FAMILY_SIZE_PROFILES[social_class])
+	var profile: Dictionary = origin_profiles[social_class]
 	var allowed_sizes: Dictionary = profile["weights"]
 	
 	for family_size in family_sizes:
 		if not allowed_sizes.has(family_size):
 			push_error(
-				"Invalid family size for " + social_class
+				"Invalid family size for " 
+				+ origin + " " + social_class
 				+ ": " + str(family_size)
 			)
 			return families
@@ -69,7 +88,8 @@ func generate_families(
 	#Check capacity before assigning anything.
 	if candidate_surnames.size() < family_sizes.size():
 		push_error(
-			"Insufficient unique surnames for " + social_class
+			"Insufficient unique surnames for " 
+			+ origin + social_class
 			+ ". Required: " + str(family_sizes.size())
 			+ ". Available: " + str(candidate_surnames.size())
 		)
@@ -90,6 +110,7 @@ func generate_families(
 		
 		var family: Dictionary = {
 			"family_id": starting_family_id + i,
+			"origin": origin,
 			"social_class": social_class,
 			"surname": selected_surname,
 			"member_count": family_sizes[i]

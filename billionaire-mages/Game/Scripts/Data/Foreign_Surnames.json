@@ -1,13 +1,16 @@
 {
     "Aristocrat":
     [
-        "Ackerman", "Jaeger", "Romanoff", "Tempest", "Vanderbilt", 
+        "Ackerman", "Amour", "Bolduc","Jaeger", "Leduc", 
+        "Morand", "Romanoff", "Tempest", "Vallerand", "Vanderbilt", 
         "Vesper"
+        
     ],
 
     "Gentile":
     [
-        "Amadeo","Borromeo","Friedrich", "Hildegard", "Olivieri"
+        "Amadeo", "Borromeo", "Chabot", "Charbonneaux", "Douglas",
+        "Friedrich", "Garneaux", "Hildegard", "Olivieri", "Pageaux"
          
     ],
 
