@@ -36,7 +36,7 @@ The city is in major part composed of local citizens but there are also a portio
 | Vagrants     | 39                  |
 | Total        | 24                  |
 
-| SOCIAL <br>CLASS | HOUSEHOLDS<br>DISTRIBUTION                                                                                                         | LOCALS | FOREIGNERS | TOTAL<br>CITIZENS | SOCIAL <br>DISTRIBUTION |
+| SOCIAL <br>CLASS | NATIONALITY<br>                                                                                                                    | LOCALS | FOREIGNERS | TOTAL<br>CITIZENS | SOCIAL <br>DISTRIBUTION |
 | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ------ | ---------- | ----------------- | ----------------------- |
 | Aristocrats      | <span style="color:rgb(100, 200, 200)">- Locals: 92.6%</span><br><span style="color:rgb(250, 100, 255)">- Foreigners: 7.4%</span>  | 125    | 10         | 135               | 13.5% Occupancy         |
 | Gentiles         | <span style="color:rgb(100, 200, 200)">- Locals: 89.3%</span><br><span style="color:rgb(250, 100, 255)">- Foreigners: 10.7%</span> | 125    | 15         | 140               | 14% Occupancy           |
@@ -69,8 +69,8 @@ The city is in major part composed of local citizens but there are also a portio
 | Vagrant      | 9                   |
 | Total        | 35                  |
 
-| SOCIAL <br>CLASS | HOUSEHOLDS<br>DISTRIBUTION                                                                                                          | LOCALS | FOREIGNERS | TOTAL<br>CITIZENS | SOCIAL <br>DISTRIBUTION |
-| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------ | ---------- | ----------------- | ----------------------- |
+| SOCIAL <br>CLASS | NATIONALITY                                                                                                                        | LOCALS | FOREIGNERS | TOTAL<br>CITIZENS | SOCIAL <br>DISTRIBUTION |
+| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ------ | ---------- | ----------------- | ----------------------- |
 | Aristocrats      | <span style="color:rgb(100, 200, 200)">- Locals: 92.6%</span><br><span style="color:rgb(250, 100, 255)">- Foreigners: 7.4%</span>  | 187.5  | 15         | 202.5             | 13.5% Occupancy         |
 | Gentiles         | <span style="color:rgb(100, 200, 200)">- Locals: 89.3%</span><br><span style="color:rgb(250, 100, 255)">- Foreigners: 10.7%</span> | 187.5  | 22.5       | 210               | 14% Occupancy           |
 | Commoners        | <span style="color:rgb(100, 200, 200)">- Locals: 88.1%</span><br><span style="color:rgb(250, 100, 255)">- Foreigners: 11.9%</span> | 666    | 90         | 756               | 50.4% Occupancy         |
