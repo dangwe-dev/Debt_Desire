@@ -70,12 +70,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "World/Generation/Algo_Population.md",
+                "file": "World/Systems/Society/Demography/Community Profiles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Algo_Population"
+              "title": "Community Profiles"
             }
           },
           {
@@ -324,8 +324,8 @@
   },
   "active": "456df2cb4423508d",
   "lastOpenFiles": [
-    "World/Systems/Society/Demography/Population Composition.md",
     "World/Generation/Algo_Population.md",
+    "World/Systems/Society/Demography/Population Composition.md",
     "World/Systems/Society/Demography/Community Profiles.md",
     "World/Systems/Society/Demography/Estate Generation.md",
     "World/Systems/Society/Hierarchy/Social Class.md",

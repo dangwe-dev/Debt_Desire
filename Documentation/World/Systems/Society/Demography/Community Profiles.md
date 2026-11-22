@@ -8,11 +8,15 @@ The same logic is applied to the locals as well as the foreigners in Victoria.
 
 # Aristocrats & Gentry/Gentiles
 
-
+## **LOCALS**
 ## <span style="color:rgb(250, 100, 255)">MINIMUM 4 FAMILY Members</span>  
 ## <span style="color:rgb(100, 200, 200)">MAXIMUM 8 FAMILY Members</span>
 ## <span style="color:rgb(0, 100, 250)">Average 6.25 per family</span>
 
+## **FOREIGNERS**
+## <span style="color:rgb(250, 100, 255)">MINIMUM 1 FAMILY Members</span>  
+## <span style="color:rgb(100, 200, 200)">MAXIMUM 5 FAMILY Members</span>
+## <span style="color:rgb(0, 100, 250)">Average 3.25 per family</span>
 
 | LOCAL<br>FAMILY<br>MEMBERS | PROBABILITY     |
 | -------------------------- | --------------- |
