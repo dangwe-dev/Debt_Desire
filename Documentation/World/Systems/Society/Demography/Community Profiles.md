@@ -3,6 +3,9 @@
 
 The population composition in Victoria follows a suite of average numbers who represent the number of people existing within every community. The city has social classes and different titled individuals as well as varying family dynamics. These averages define what the demography looks like.
 
+The average members per family, are constant weights used across the demography to group citizens into families.
+The same logic is applied to the locals as well as the foreigners in Victoria.
+
 # Aristocrats & Gentry/Gentiles
 
 

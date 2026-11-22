@@ -136,25 +136,3 @@ If 20 Aristocratic families
 - 6 Barons
 
 
-## Gentry
-
-
-Available titles
-
-- Business Owner
-- Banker
-
-## Middle Class
-
-Available titles
-
-- Business Owner
-- Banker
-- Worker
-
-## Underclass
-
-Available titles
-
-- Gang member
-- Beggar
