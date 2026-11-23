@@ -203,6 +203,10 @@ func _validate_families(families: Array[Dictionary]) -> bool:
 			push_error("Family surname must be a string.")
 			return false
 			
+		if family["surname"].strip_edges().is_empty():
+			push_error("Family surname cannot be empty.")
+			return false
+			
 		if typeof(family["member_count"]) != TYPE_INT:
 			push_error("Family member count must be an integer.")
 			return false
