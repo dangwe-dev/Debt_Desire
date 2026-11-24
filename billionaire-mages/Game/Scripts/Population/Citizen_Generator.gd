@@ -59,14 +59,39 @@ func generate_citizens(
 		
 		var used_family_names: Dictionary = {}
 		
+		var family_sexes: Array[String] = []
+		
+		if member_count >= 3:
+			
+			if rng.randi_range(0, 1) == 0:
+				family_sexes.append("male")
+				family_sexes.append("female")
+			else:
+				family_sexes.append("female")
+				family_sexes.append("male")
+			
+			for i in range(member_count - 2):
+				family_sexes.append(
+					"male"
+					if rng.randi_range(0, 1) == 0
+					else "female"
+				)
+				
+		else:
+			
+			for i in range(member_count):
+				family_sexes.append(
+					"male"
+					if rng.randi_range(0, 1) == 0
+					else "female"
+				)
+		
 		for i in range(member_count):
 			
-			
-			var preferred_sex: String = (
-				"male"
-				if rng.randi_range(0, 1) == 0
-				else "female"
-			)
+			var preferred_sex: String = family_sexes[i]
+		
+		
+		
 			
 			var name_data: Dictionary = _select_first_name(
 				preferred_sex,

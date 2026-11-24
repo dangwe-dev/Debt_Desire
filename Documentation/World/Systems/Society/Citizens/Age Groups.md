@@ -49,6 +49,7 @@ Spawn rates are applied after the
 
 ## Aristocrats & Gentiles
 
+### General Spawn Rates
 
 | AGE GROUPS | SPAWN RATES |
 | ---------- | ----------- |
@@ -56,9 +57,15 @@ Spawn rates are applied after the
 | ADULTS     | 40%         |
 | TEENAGERS  | 25%         |
 | CHILDREN   | 25%         |
+### Non-Adult Spawn Rates
+| AGE GROUPS | SPAWN RATES |
+| ---------- | ----------- |
+| ELDERS     | 30%         |
+| TEENAGERS  | 40%         |
+| CHILDREN   | 30%         |
 
 ## Commoners & Vagrants
-
+### General Spawn Rates
 
 | AGE GROUPS | SPAWN RATES |
 | ---------- | ----------- |
@@ -66,3 +73,10 @@ Spawn rates are applied after the
 | ADULTS     | 50%         |
 | TEENAGERS  | 15%         |
 | CHILDREN   | 15%         |
+
+### Non-Adult Spawn Rates
+| AGE GROUPS | SPAWN RATES |
+| ---------- | ----------- |
+| ELDERS     | 40%         |
+| TEENAGERS  | 30%         |
+| CHILDREN   | 30%         |
