@@ -18,7 +18,7 @@ The same logic is applied to the locals as well as the foreigners in Victoria.
 ## <span style="color:rgb(100, 200, 200)">MAXIMUM 5 FAMILY Members</span>
 ## <span style="color:rgb(0, 100, 250)">Average 3.25 per family</span>
 
-| LOCAL<br>FAMILY<br>MEMBERS | PROBABILITY     |
+| LOCAL<br>FAMILY<br>MEMBERS | SPAWN RATES     |
 | -------------------------- | --------------- |
 | 4 Members                  | 5 % Spawn Rate  |
 | 5 Members                  | 15 % Spawn Rate |
@@ -29,7 +29,7 @@ The same logic is applied to the locals as well as the foreigners in Victoria.
 Most Likely 6/7 members per household.
 Small and Large Households are less common
 
-| FOREIGN<br>FAMILY<br>MEMBERS | PROBABILITY     |
+| FOREIGN<br>FAMILY<br>MEMBERS | SPAWN RATES     |
 | ---------------------------- | --------------- |
 | 1 Members                    | 5 % Spawn Rate  |
 | 2 Members                    | 15 % Spawn Rate |

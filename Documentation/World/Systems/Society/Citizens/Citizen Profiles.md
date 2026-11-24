@@ -14,7 +14,14 @@ Family names, just like names, are randomly given out to every family members th
 
 ## Age
 
-Age does have some weight in Debt & Desire. It influences the probability of income and the types of relationships the citizens have. Its one of the mechanics adding flavor and depth to the world.
+Age does have some weight in Debt & Desire. It influences the probability of income and the types of relationships the citizens have. 
+Age, like the social classes, also determines the availability of titles.
+Age is not a number but a range and so a specific age range is an access key to specific titles.
+Its one of the mechanics adding flavor and depth to the world.
+
+#### VERY OPTIONAL
+The characters grow out of their age range after a certain amount of time has passed. 
+After the elder group, the character passes on. Maybe he is replaced by a child.
 
 
 

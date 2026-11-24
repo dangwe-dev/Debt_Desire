@@ -1,4 +1,4 @@
-		  	
+ 		  	
 The Statuses in Debt & Desire are a metric that gives insight about social class to the players. Every citizen in Victoria has a status describing their social position.
 Titles on the other hand, grant different powers and defines behavior.
 Middle class titles are infinite but there is a finite number of upper class, and underclass titles. This mechanic ensures the game balances itself. I
@@ -31,18 +31,43 @@ In addition to being a element allowing the player to predict behavior, titles a
 The Financial Imperator title is given to to one of the 6 Syndicate members.
 This title gives the holder the most coveted power in all of Victoria and that is the power to control the lands, the banks, the titles and permits. Financial Imperators are essentially the ultimate rulers of the city. They also bypass the rule of one noble title per family. Making the families they hail from more powerful than a regular Aristocratic family. 
 
+- There is 100% chance of generating 6 financial imperators at the start of every game.
+
 ## <span style="color:rgb(80, 180, 200)">Duke</span>
 
-
+- There is a 10% chance the Duke title gets assigned.
+- There must at least be 2 Dukes at the start of every game.
 
 ## <span style="color:rgb(80, 180, 200)">Marquess</span>
 
+- There is a 15% chance the Marquess title gets assigned.
+- There must at least be 3 Marquess at the start of every game.
+
 ## <span style="color:rgb(80, 180, 200)">Earl</span>
+
+- There is a 20% chance the Earl title gets assigned.
+- There must at least be 3 Earls at the start of every game.
 
 ## <span style="color:rgb(80, 180, 200)">Viscount</span>
 
+- There is a 25% chance the Viscount title gets assigned.
+- There must at least be 4 Viscounts at the start of every game.
+
 ## <span style="color:rgb(80, 180, 200)">Baron</span>
 
+- There is a 30% chance the Baron title gets assigned.
+- There must at least be 5 Barons at the start of every game.
+
+### Aristocratic title average
+If 1000 citizens
+Then 20 Aristocratic families most likely
+If 20 Aristocratic families
+
+- 2 Dukes
+- 3 Marquess
+- 4 Earls
+- 5 Viscounts
+- 6 Barons
 
 # <span style="color:rgb(150, 255, 150)">Gentile Titles</span>
 
@@ -119,20 +144,5 @@ Beggars, are members of the underclass not partaking in criminal activity. This 
 
 
 
-## Aristocrats
-
-
-The Aristocratic families all hold one aristocratic title that can be inherited by family members. There are 5 titles in total all with a constant ratio of distribution being applied to them.
-
-
-If 1000 citizens
-Then 20 Aristocratic families most likely
-If 20 Aristocratic families
-
-- 2 Dukes
-- 3 Marquess
-- 4 Earls
-- 5 Viscounts
-- 6 Barons
 
 

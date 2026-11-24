@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "World/Systems/Environment/Weather.md",
+                "file": "World/Systems/Society/Demography/Community Profiles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Weather"
+              "title": "Community Profiles"
             }
           },
           {
@@ -70,12 +70,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "World/Systems/Society/Demography/Community Profiles.md",
+                "file": "World/Systems/Society/Citizens/Citizen Profiles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Community Profiles"
+              "title": "Citizen Profiles"
             }
           },
           {
@@ -93,7 +93,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       },
       {
         "id": "936659d519d44bb0",
@@ -120,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "World/Systems/Society/Citizens/Citizen Profiles.md",
+                "file": "World/Systems/Society/Citizens/Age Groups.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Citizen Profiles"
+              "title": "Age Groups"
             }
           },
           {
@@ -157,7 +157,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -322,20 +322,24 @@
       "bases:Create new base": false
     }
   },
-  "active": "456df2cb4423508d",
+  "active": "1bb0c1f7aa84e215",
   "lastOpenFiles": [
-    "World/Generation/Algo_Population.md",
-    "World/Systems/Society/Demography/Population Composition.md",
-    "World/Systems/Society/Demography/Community Profiles.md",
-    "World/Systems/Society/Demography/Estate Generation.md",
-    "World/Systems/Society/Hierarchy/Social Class.md",
-    "World/WorldBuilding/Victoria.md",
-    "World/Systems/Economy/Economy Landscape/Commerce.md",
-    "World/Systems/Economy/Economy Landscape/Organizations.md",
+    "World/Systems/Society/Demography/Family Dynamics.md",
     "World/Systems/Society/Hierarchy/Status & Titles.md",
+    "World/Systems/Society/Citizens/Age Groups.md",
+    "World/Systems/Society/Demography/Community Profiles.md",
+    "World/Systems/Environment/Weather.md",
     "World/Systems/Society/Citizens/Behavior.md",
     "World/Systems/Society/Citizens/Citizen Profiles.md",
     "World/Systems/Society/Citizens/Relationships.md",
+    "World/Systems/Society/Demography/Population Composition.md",
+    "World/Systems/Society/Demography/Estate Generation.md",
+    "World/WorldBuilding/Victorian Society.md",
+    "World/WorldBuilding/Victoria.md",
+    "World/Systems/Society/Hierarchy/Social Class.md",
+    "World/Generation/Algo_Population.md",
+    "World/Systems/Economy/Economy Landscape/Commerce.md",
+    "World/Systems/Economy/Economy Landscape/Organizations.md",
     "World/Systems/Economy/Production/Industry/Functions of Industry.md",
     "World/Systems/Economy/Production/Industry/Industry List.md",
     "World/Systems/Economy/Marketplace/Market Access.md",
@@ -347,11 +351,7 @@
     "World/Systems/Economy/Production/Resources/Factories.md",
     "World/Systems/Society/Demography/E.md",
     "2026-10-01.md",
-    "QUESTIONS.md",
     "Untitled.canvas",
-    "World/Systems/Economy/Entities/Named Infrastructures.md",
-    "World/Systems/Economy/Entities/Public Venues.md",
-    "World/Systems/Economy/FLOW/Flow of Currency.md",
     "World/Systems/Economy/FLOW/Commodity Dependencies.canvas",
     "World/Systems/Economy/Production/X_Dollar Map.canvas",
     "World/Systems/Environment",
