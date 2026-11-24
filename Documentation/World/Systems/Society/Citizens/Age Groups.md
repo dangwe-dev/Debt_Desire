@@ -19,8 +19,8 @@ Children are limited in the amount of titles they can hold.
 - A family of 1 must have 1 adult.
 - A family of 2 must have 1 adult unless its an upper class family.
 - Every family of 3 or more must have 2 adults. One male and one female. 
-- Every family of 4 or more must have either an elder, a teenager or a child.
-- Every family above 5 must have 2 citizen from the age groups; elder, teenager or children. It can be 2 from 2 different groups or from the same.
+- Every family of 4 or more must have a non-adult.
+- Every family above 5 must have 2 non-adults. It can be 2 from 2 different groups or from the same.
 - If a family has more than 6 members there must be a member from every age group present.
 
 #### These rules are compounded. So every family above 3 will get two adults if the family member count stops at 4 than additionally you will get at least one member from one of the other age groups and so on and so forth.
