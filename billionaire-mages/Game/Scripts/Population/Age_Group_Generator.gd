@@ -159,16 +159,9 @@ func _assign_family_ages(
 		if remaining_member == -1:
 			return false
 		
-		var restricted_weights: Dictionary = {
-			"Adult": GENERAL_WEIGHTS[social_class]["Adults"],
-			"Teenager": GENERAL_WEIGHTS[social_class]["Teenager"],
-			"Child": GENERAL_WEIGHTS[social_class]["Child"]
-		}
-		
 		assignments[remaining_member] = _weighted_choice(
-			restricted_weights
+			GENERAL_WEIGHTS[social_class]
 		)
-		
 		return true
 		
 	if member_count == 2:
@@ -177,7 +170,18 @@ func _assign_family_ages(
 		):
 			return false
 			
-	if member_count >= 3:
+	if is_upper_class and member_count >= 3:
+		if not _assign_random_member(
+			members, "Elder", assignments
+		):
+			return false
+			
+		if not _assign_random_member(
+			members, "Adult", assignments
+		):
+			return false
+			
+	elif social_class == "Commoner" and member_count >= 3:
 		if not _assign_random_member_of_sex(
 			members, "male", citizens, "Adult", assignments
 		):
@@ -188,53 +192,66 @@ func _assign_family_ages(
 		):
 			return false
 			
-	if member_count > 6:
-		for age_group in AGE_GROUPS:
-			if not _has_age_group(
-				members, age_group, assignments
+	if member_count >= 3:
+		for sex in ["male", "female"]:
+			if not _family_has_assigned_sex(
+				members, sex, citizens, assignments
 			):
-				if not _assign_random_member(
-					members, age_group, assignments
+				if not _assign_random_member_of_sex(
+					members, "sex", citizens, "Adult", assignments
 				):
-				
 					return false
-	else:
+					
+	var required_non_adults: int = 0
+	
+	if member_count >= 4:
+		required_non_adults = 1
 		
-		var required_non_adults: int = 0
+	if member_count >= 5:
+		required_non_adults = 2
 		
-		if member_count >= 4:
-			required_non_adults = 1
-			
-		if member_count > 5:
-			required_non_adults = 2
-			
-		var current_non_adults: int = _count_non_adults(
-			members, assignments
+	var current_non_adults: int = _count_non_adults(
+		members, assignments
+	)
+	while current_non_adults < required_non_adults:
+		var age_group: String = _weighted_choice(
+			NON_ADULT_WEIGHTS[social_class]
 		)
 		
-		while current_non_adults < required_non_adults:
-			var age_group: String = _weighted_choice(
-				NON_ADULT_WEIGHTS[social_class]
-			)
+		if not _assign_random_member(members,age_group, assignments):
+			return false
 			
-			if not _assign_random_member(
-				members, age_group, assignments
-			):
-				return false
-				
-			current_non_adults += 1
+		current_non_adults += 1
+	
 			
+	if member_count > 6:
+		for age_group in AGE_GROUPS:
+			if not _has_age_group(members, age_group, assignments):
+				if not _assign_random_member(members, age_group, assignments):
+					return false
+	
 	while _get_unassigned_member(members, assignments) != -1:
 		var age_group: String = _weighted_choice(
 			GENERAL_WEIGHTS[social_class]
 		)
 		
-		if not _assign_random_member(
-			members, age_group, assignments
-		):
+		if not _assign_random_member(members, age_group, assignments):
 			return false
-			
+	
 	return true
+	
+func _family_has_assigned_sex(
+	members: Array,
+	sex: String,
+	citizens: Array[Dictionary],
+	assignments: Dictionary
+) -> bool:
+	
+	for index in members:
+		if citizens[index]["sex"] == sex and assignments.has(index):
+			return true
+			
+	return false
 	
 func _validate_input(
 	families: Array[Dictionary],
