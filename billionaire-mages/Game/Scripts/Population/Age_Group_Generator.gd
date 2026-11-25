@@ -194,9 +194,7 @@ func _assign_family_ages(
 			
 	if member_count >= 3:
 		for sex in ["male", "female"]:
-			if not _family_has_assigned_sex(
-				members, sex, citizens, assignments
-			):
+			if not _family_has_assigned_sex(members, sex, citizens, assignments):
 				if not _assign_random_member_of_sex(
 					members, sex, citizens, "Adult", assignments
 				):
