@@ -44,6 +44,8 @@ Children are limited in the amount of titles they can hold.
   
   [Elder + Random + Adult]
   
+- Every aristocratic and gentile family of 4 or more must have at least 1 male and 1 female.
+  
   
 ## Commoners & Vagrants
 
