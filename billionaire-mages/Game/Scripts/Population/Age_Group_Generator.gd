@@ -191,13 +191,8 @@ func _assign_family_ages(
 			members, "female", citizens, "Adult", assignments
 		):
 			return false
-			
-	if member_count >= 3:
-		if not _assign_random_member_of_sex(
-			members, "sex", citizens, "Adult", assignments
-				):
-					return false
-					
+		
+		
 	var required_non_adults: int = 0
 	
 	if member_count >= 4:
