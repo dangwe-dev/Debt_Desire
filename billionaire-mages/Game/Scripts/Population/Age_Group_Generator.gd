@@ -231,18 +231,6 @@ func _assign_family_ages(
 	
 	return true
 	
-func _family_has_assigned_sex(
-	members: Array,
-	sex: String,
-	citizens: Array[Dictionary],
-	assignments: Dictionary
-) -> bool:
-	
-	for index in members:
-		if citizens[index]["sex"] == sex and assignments.has(index):
-			return true
-			
-	return false
 	
 func _validate_input(
 	families: Array[Dictionary],
