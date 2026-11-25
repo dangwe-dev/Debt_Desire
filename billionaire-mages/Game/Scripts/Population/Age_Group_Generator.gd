@@ -477,7 +477,7 @@ func _weighted_choice(weights: Dictionary) -> String:
 	for age_group in weights:
 		cumulative_weight += float(weights[age_group])
 		
-		if roll <= cumulative_weight:
+		if roll < cumulative_weight:
 			return age_group
 			
 	return weights.keys()[-1]
