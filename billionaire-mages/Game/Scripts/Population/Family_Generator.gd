@@ -1,6 +1,6 @@
 extends RefCounted
 
-class_name  FamilyGenerator
+class_name  Family_Generator
 
 
 const PopulationDemography = preload(
