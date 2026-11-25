@@ -15,7 +15,7 @@ const UPPER_CLASSES := [
 ]
 
 const VALID_CLASSES := [
-	"Aritocrat",
+	"Aristocrat",
 	"Gentile",
 	"Commoner",
 	"Vagrant"
@@ -173,27 +173,31 @@ func _assign_family_ages(
 		
 	if member_count == 2:
 		if not _assign_random_member(
-			members, "Adults", assignments
+			members, "Adult", assignments
 		):
 			return false
 			
-		if member_count >= 3:
-			if not _assign_random_member_of_sex(
-				members, "male", citizens, "Adult", assignments
-			):
-				return false
-				
-			if not _assign_random_member_of_sex(
-				members, "female", citizens, "Adults", assignments
-			):
-				return false
-				
+	if member_count >= 3:
+		if not _assign_random_member_of_sex(
+			members, "male", citizens, "Adult", assignments
+		):
+			return false
+			
+		if not _assign_random_member_of_sex(
+			members, "female", citizens, "Adult", assignments
+		):
+			return false
+			
 	if member_count > 6:
 		for age_group in AGE_GROUPS:
 			if not _has_age_group(
 				members, age_group, assignments
 			):
-				return false
+				if not _assign_random_member(
+					members, age_group, assignments
+				):
+				
+					return false
 	else:
 		
 		var required_non_adults: int = 0
@@ -258,7 +262,7 @@ func _validate_input(
 			push_error("Age Group Generator: Family missing member_count.")
 			return false
 			
-		if not family.has("Social_class"):
+		if not family.has("social_class"):
 			push_error("Age Group Generator: Family missing social_class.")
 			return false
 			
@@ -301,6 +305,7 @@ func _validate_input(
 			
 		if not citizen.has("family_id"):
 			push_error("Age Group Generator: Citizen missing family_id.")
+			return false
 			
 		if not citizen.has("sex"):
 			push_error("Age Group Generator: citizen missing sex.")
@@ -449,7 +454,7 @@ func _weighted_choice(weights: Dictionary) -> String:
 	for weight in weights.values():
 		total_weight += float(weight)
 		
-	var roll: float = _rng.randi_range(0.0, total_weight)
+	var roll: float = _rng.randf_range(0.0, total_weight)
 	var cumulative_weight: float = 0.0
 	
 	for age_group in weights:
