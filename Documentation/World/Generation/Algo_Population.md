@@ -26,9 +26,8 @@ Allocate family surnames by using the pool of available surnames per class and n
 ## 6. Generate Citizens within family
 
 - Generate individual profiles within the families.
-- Allocate 2 family authorities. 1 male, 1 female. 
-- Determine the utmost family authority through a 7/10 weight for males and 3/10 weight for females.
-- For Aristocrats assign the title to the utmost family authority.
+- Allocate 1 family authority using family dynamic weights
+- For Aristocrats assign the nobility title to family head.
 
 
 ## 7. Generate a Validation Report

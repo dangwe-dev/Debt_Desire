@@ -22,6 +22,8 @@ const EXPECTED_SEXES: Array[String] = [
 
 var rng: RandomNumberGenerator = RandomNumberGenerator.new()
 
+var name_frequencies: Dictionary = {}
+
 func _init() -> void:
 	rng.randomize()
 	
@@ -46,6 +48,8 @@ func generate_citizens(
 		
 	if families.is_empty():
 		return citizens
+		
+	name_frequencies.clear()
 		
 	var next_citizen_id: int = starting_citizen_id
 	
@@ -115,7 +119,8 @@ func generate_citizens(
 				"social_class": social_class,
 				"sex": name_data["sex"],
 				"first_name": name_data["first_name"],
-				"surname": surname
+				"surname": surname,
+				"family_position": "HOUSEHOLD_MEMBER"
 			}
 			citizens.append(citizen)
 			next_citizen_id += 1
@@ -253,62 +258,104 @@ func _select_first_name(
 	var name_pool: Array = (
 		first_names[preferred_sex][origin][social_class]
 	)
-	var selected_name: String = _pick_unused_name(
-		name_pool,
-		used_family_names
+	
+	var pool_key: String = _get_name_pool_key(
+		preferred_sex,
+		origin,
+		social_class
 	)
 	
-	var selected_sex: String = preferred_sex
+	var selected_name: String = _pick_weighted_unused_name(
+		name_pool,
+		used_family_names,
+		pool_key
+	)
 	
-	if selected_name.is_empty():
-		
-		selected_sex = (
-			"female"
-			if preferred_sex == "male"
-			else "male"
-		)
-		name_pool = first_names[selected_sex][origin][social_class]
-		
-		selected_name = _pick_unused_name(
-			name_pool,
-			used_family_names
-		)
 	if selected_name.is_empty():
 		return {}
-	var normalized_name: String = (
-		selected_name.strip_edges().to_lower()
-	)
 	
+	var normalized_name: String = selected_name.strip_edges().to_lower()
 	used_family_names[normalized_name] = true
 	
 	return {
-		"sex": selected_sex,
-		"first_name": selected_name
-		}
-		
-func _pick_unused_name(
+		"sex": preferred_sex,
+		"first_name": selected_name 
+	}
+	
+func _get_name_pool_key(
+	sex: String,
+	origin: String,
+	social_class: String
+) -> String:
+	
+	return sex + "|" + origin + "|" + social_class
+
+func _pick_weighted_unused_name(
 	name_pool: Array,
-	used_family_names: Dictionary
+	used_family_names: Dictionary,
+	pool_key: String
 ) -> String:
 	
 	var candidates: Array[String] = []
+	var candidate_weights: Array[float] = []
+	var total_weight: float = 0.0
+	
+	var pool_frequencies: Dictionary = name_frequencies.get(
+		pool_key,
+		{}
+	)
 	
 	for first_name in name_pool:
 		
-		var normalized_name: String = (
-			first_name.strip_edges().to_lower()
-		)
+		var normalized_name: String = first_name.strip_edges().to_lower()
+		
 		if used_family_names.has(normalized_name):
 			continue
 			
+		var times_selected: int = pool_frequencies.get(
+			normalized_name,
+			0
+		)
+		
+		var weight: float = pow(0.5, times_selected)
+		
 		candidates.append(first_name)
+		candidate_weights.append(weight)
+		total_weight += weight
 		
 	if candidates.is_empty():
 		return ""
 		
-	var selected_index: int = rng.randi_range(
-		0,
-		candidates.size() - 1
+	var roll: float = rng.randf_range(0.0, total_weight)
+	var cumulative_weight: float = 0.0
+	
+	for i in range(candidates.size()):
+		
+		cumulative_weight += candidate_weights[i]
+		
+		if roll < cumulative_weight:
+			
+			var selected_name: String = candidates[i]
+			var normalized_selected_name: String = (
+				selected_name.strip_edges().to_lower()
+			)
+			
+			pool_frequencies[normalized_selected_name] = (
+				pool_frequencies.get(normalized_selected_name, 0) + 1
+			)
+			
+			name_frequencies[pool_key] = pool_frequencies
+			
+			return selected_name
+			
+	var fallback_name: String = candidates.back()
+	var normalized_fallback_name: String = (
+		fallback_name.strip_edges().to_lower()
 	)
 	
-	return candidates[selected_index]
+	pool_frequencies[normalized_fallback_name] = (
+		pool_frequencies.get(normalized_fallback_name, 0) + 1
+	)
+	name_frequencies[pool_key] = pool_frequencies
+	
+	return fallback_name
