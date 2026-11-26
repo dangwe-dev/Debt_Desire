@@ -25,7 +25,7 @@ const AGE_GROUP_WEIGHTS := {
 		"Elder": 30.0,
 		"Adult": 50.0,
 		"Teenager": 20.0,
-		"child": 0.0
+		"Child": 0.0
 	}
 }
 
