@@ -68,16 +68,20 @@
     "Vagrant":
     [
         
-        "Allen", "Arnold", "Baker", "Bennett", "Boyd", 
-        "Burke", "Carver", "Chambers","Clark", "Cole", 
-        "Conway", "Cross", "Curry", "Davis", "Dunn", 
-        "Evans", "Fisher", "Flynn", "Ford", "Gallagher", 
-        "Garcia", "Gibbons","Hudson", "Hayes", "Holland", 
-        "Holt", "Ingram", "Jackson", "Kelley", "Lane",
-        "Lewis", "McBride", "McCarthy", "Moore", "Nash", 
-        "Newman", "O'Brien", "O'Connell", "Owens","Parker", 
-        "Reid", "Robinson","Scott", "Shaw", "Sweeney", 
-        "Tate", "Walker", "Webb", "Wolfe", "Yates"
+        "Allen", "Arnold", "Ashby", "Baker", "Bates", 
+        "Beckett", "Bennett", "Boudreault", "Boyd", "Burke", 
+        "Caron","Carver", "Chambers","Clark", "Cole", 
+        "Conway", "Cross", "Curry", "Davis", "Ducharme",
+        "Dunn", "Evans", "Fisher", "Flynn", "Ford", 
+        "Gallagher", "Galloway", "Garcia", "Gibbons", "Haines", 
+        "Harlow", "Hudson", "Hayes", "Holland", "Holt", 
+        "Ingram", "Jackson", "Kavanagh", "Kelley", "Lane",
+        "Lewis", "Macload", "McBride", "McCarthy", "Mckenna", 
+        "Moore", "Nash", "Newman", "O'Brien", "O'Connell", 
+        "Owens","Parker", "Pellerin", "Pelletier", "Reid", 
+        "Robinson", "Roussell", "Sawyer", "Scott", "Shaw", 
+        "Sweeney", "Tate", "Thibault", "Vigneault", "Walker", 
+        "Webb", "Whelan", "Wolfe", "Yates", "Zimmer"
 
     ]
 }

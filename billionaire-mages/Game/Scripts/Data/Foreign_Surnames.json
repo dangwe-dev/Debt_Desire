@@ -25,8 +25,9 @@
 
     "Vagrant":
     [
-        "Blackwood", "Blade", "Crow", "Darkshine", "Frost", 
-        "Iron", "Raven", "Rivers", "Sand", "Snow", 
-        "Storm", "Windwalker", "Wolf"
+        "Blackwood", "Blade", "Crow", "Crowley", "Darkshine",
+        "Draven", "Flint", "Frost", "Granger", "Iron",
+        "Morrow", "Pike", "Raven", "Rivers", "Rook", 
+        "Sand", "Snow", "Storm", "Windwalker", "Wolf"
     ]
 }
